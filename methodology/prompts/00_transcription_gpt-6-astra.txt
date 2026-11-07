@@ -1,0 +1,70 @@
+SOURCE-FAITHFUL TRANSCRIPTION, packet ENR-P100
+Federigo Enriques, Le superficie algebriche (Bologna: Zanichelli, 1949)
+Printed pages 100 to 109
+
+The attached images are scanned pages of this book. For every printed page there are four images, in this order: the
+whole page, then three enlarged horizontal strips of the same page (top, middle, bottom; the strips overlap a little).
+Use the whole page for the layout and the strips to read small type, indices, exponents and primes. Pages in order:
+  printed page 100 (scan 60): whole page + strips 1-3
+  printed page 101 (scan 60): whole page + strips 1-3
+  printed page 102 (scan 61): whole page + strips 1-3
+  printed page 103 (scan 61): whole page + strips 1-3
+  printed page 104 (scan 62): whole page + strips 1-3
+  printed page 105 (scan 62): whole page + strips 1-3
+  printed page 106 (scan 63): whole page + strips 1-3
+  printed page 107 (scan 63): whole page + strips 1-3
+  printed page 108 (scan 64): whole page + strips 1-3
+  printed page 109 (scan 64): whole page + strips 1-3
+
+TASK
+Transcribe every page completely and exactly into LaTeX, from the images alone. This is a diplomatic transcription for
+a machine-readable edition. Completeness and exactness are the only goals; nothing else counts.
+
+ABSOLUTE RULES
+1. Everything printed on the page is transcribed, in reading order: headings, every word of running text, every
+   formula, every footnote, every table, figure captions and inscriptions. Not one word, letter, symbol, index,
+   exponent, prime, accent, apostrophe, bracket or punctuation mark may be left out.
+2. Never summarize, paraphrase, shorten, reorder, merge, modernize, normalize, translate or "improve" anything. Never
+   write "...", "etc.", "[continued]" or "[formula]" for material that is printed on the page.
+3. Keep the printed Italian exactly: spelling, accents as printed (è, é, à, perchè or perché as printed), elisions and
+   apostrophes, the printed abbreviations (op. cit., cfr., pag., l. c.) and the printed quotation marks.
+4. A printing error stays as printed. Never correct it silently. Mark it at the end of that line with
+   % [sic] <what is printed> -> <apparently intended reading>, <reason>.
+5. If a character or symbol is not certain, write your best reading and put at the end of that line
+   % ?? uncertain: <what is uncertain> -- <the possible readings>. Never guess silently, never leave a gap.
+6. Library stamps, handwritten marks and scanner artefacts are not part of the text: note them only as a comment line
+   % stamp: <what it is>.
+7. Transcribe only what the images show. Do not reproduce any other edition or text of this book, and do not fill
+   anything in from memory or from mathematical knowledge.
+
+CONVENTIONS (follow exactly)
+- Every page starts with these two lines:
+      % !PRINTED <printed page>
+      \weberpage{<printed page>}
+  followed by a comment line with the running head as printed:   % head: <running head>
+  The running head and the page number are not transcribed as text.
+- If a paragraph or a formula runs on across a page break, the page ends with a line %CONT>> and the next page
+  starts, after its header lines, with a line %<<CONT. No paragraph break is inserted there.
+- Words hyphenated at a line end are joined; hyphens that belong to the word stay.
+- One blank line between printed paragraphs. The printed line breaks inside a paragraph are not kept.
+- Headings: chapter headings as printed in \section*{...} (keep the printed capitals and line break as \\);
+  numbered section headings in \subsection*{...} with the number as printed.
+- Emphasis: italics -> \textit{...}; bold -> \textbf{...}; small capitals (often used for authors' names) ->
+  \textsc{...}; letter-spaced type -> \gesperrt{...}. Letters that denote mathematical quantities go in math mode.
+- Mathematics exactly as printed: the same letters and alphabets, the same indices and their placement, the same
+  brackets, signs, operators and dots. Nothing is simplified, expanded or rewritten.
+- Displayed formulas: \[ ... \]. A display printed on several lines: \begin{aligned} ... \end{aligned} inside
+  \[ ... \], broken where the print breaks. A display with a printed number or label: \weq{<label as printed>}{<formula>}.
+- Footnotes: \footnote{<complete text>} at the position of the footnote mark.
+- Tables: tabular, with every entry. Illustrations only: \weberfigure{<printed page>}{<literal description and
+  every label>}.
+
+METHOD
+For each page in order: (a) transcribe it from the whole page and the strips; (b) compare your transcription with the
+images line by line, so that every printed line, formula and footnote is accounted for; (c) correct every omission or
+deviation before going on to the next page.
+
+OUTPUT (this run has no file tools)
+- First the complete LaTeX of all pages in one fenced ```latex code block. No preamble, no \documentclass.
+- Then only this table: page | first five words as printed | last five words as printed | displayed formulas |
+  footnotes | number of % ?? | number of % [sic].

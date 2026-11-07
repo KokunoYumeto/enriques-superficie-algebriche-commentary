@@ -1,0 +1,30 @@
+% !TeX program = lualatex
+\documentclass[11pt,openany]{book}
+\usepackage[a4paper,inner=28mm,outer=24mm,top=26mm,bottom=28mm]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{unicode-math}
+\usepackage[main=english]{babel}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\setlength{\emergencystretch}{3em}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\title{A mathematical commentary on Federigo Enriques,\\ \emph{Le superficie algebriche} (1949)}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\tableofcontents
+\part{Introduzione and Capitoli I--VI}
+\input{commentary_part1}
+\IfFileExists{commentary_part2.tex}{\part{Capitoli VII--XI}\input{commentary_part2}}{}
+\end{document}

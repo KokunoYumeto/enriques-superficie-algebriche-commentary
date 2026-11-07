@@ -1,0 +1,522 @@
+id,page,statement (modern),kind,gap or error (if any),repair and reference,notes
+V-001,167,"A pencil has generic normalization genus π, an effective base-point count n, and weighted singular-member count δ.",definition,,V.1 explains the exact resolved-pencil conventions.,Distinct simple bases and nodal fibers are the initial generic case; later conventions alter δ.
+V-002,167,I=δ−n−4π is independent of the chosen generic pencil on the fixed smooth surface.,proved,Arbitrary nongeneric pencils require weights and resolved base schemes.,"V.1, Euler-characteristic proof: I=e(S)−4.",Proof is continued on pp168–169; relative rather than birational invariant.
+V-003,167,"I is expressible in terms of p_a and p^(1), so is not an additional independent numerical invariant.",stated without proof,,V.3 proves I=12p_a−p^(1)+9.,"An announcement here, proved later."
+V-004,167,Zeuthen first recognized the invariant for hyperplane pencils; Segre compared arbitrary pencils.,assumed from earlier work,,Enriques cites Zeuthen1871 and C.Segre1896; historical ledger V.H.,Attribution as given in source; not an independently reproduced history of priority.
+V-005,168,"For two generic pencils C_1,C_2, let n_i,π_i be their base counts and genera, s=C_1·C_2, and L their tangency locus.",definition,,V.1.,General relative position and disjoint simple bases.
+V-006,168,A generic C_1 meets L outside its base points in degree 2s+2π_1−2.,proved,,Riemann–Hurwitz; V.1.,These are ramification points of the C_2 pencil on C_1.
+V-007,168,A generic C_2 meets L outside its base points in degree 2s+2π_2−2.,proved,,Riemann–Hurwitz; V.1.,Symmetric counterpart.
+V-008,168,The induced map L→P1 of degree 2s+2π_1−2 has ramification degree 4s+4(π_1−1)+2g(L)−2.,proved,,Riemann–Hurwitz on normalization of L; V.1.,Smoothness and simple ramification are supplied by genericity.
+V-009,168,"The ramification points of the first map comprise δ_1 pencil nodes, τ common third-order contacts, and n_2 bases of the second pencil.",proved,Multiplicity descriptions depend on generic local models.,V.1 gives the modern scope.,Source explains the three contributions separately.
+V-010,168,4s+4(π_1−1)+2g(L)−2=δ_1+τ+n_2.,proved,,V.1.,The scan's doubtful mark over π does not introduce a new genus.
+V-011,168,4s+4(π_2−1)+2g(L)−2=δ_2+τ+n_1.,proved,,V.1.,Interchange the two pencils.
+V-012,168,Subtracting yields δ_1−n_1−4π_1=δ_2−n_2−4π_2.,proved,,Direct subtraction; V.1.,The auxiliary genus and τ cancel.
+V-013,168–169,An ordinary multiplicity-r moving-tangent base point contributes multiplicity 2r−1 to the two-pencil Jacobian.,sketched,Requires ordinary local behavior.,Use the determinant of local pencil differentials or resolve the base; V.1.,Source derives it by adding the two pencil members to a net Jacobian.
+V-014,169,The completed net Jacobian has multiplicity 3r−1 at that base; removing one C_2 leaves 2r−1.,sketched,,Local Jacobian multiplicity computation; V.1.,Enriques calls the assertion easy to verify.
+V-015,169,The base point's contribution to the comparison remains one after its intersection and ramification multiplicities are combined.,sketched,Cannot replace resolved base counts by total scheme length without changing δ.,Euler formulation V.1.1.,Source gives local multiplicity 2r and the resulting cancellation.
+V-016,169,"Infinitely near bases can be treated by continuity, including nodal degenerations at the base and its infinitesimal neighbor.",sketched,Continuity alone does not specify a complete intersection-theoretic convention.,Resolve the pencil and use Euler defects; V.1.,The two absorbed contributions are part of the source's effective-base convention.
+V-017,169,An ordinary r-fold point outside the base contributes (r−1)^2 to δ.,proved,False for an arbitrary nonordinary multiplicity-r point.,μ=2δ_local−number_of_branches+1; ordinary r-fold μ=(r−1)^2; V.1.,Enriques's 'in generale' is essential.
+V-018,169,"A nonreduced fiber may be written 2χ+ψ, with χ of genus ρ and χ·ψ=i.",definition,,V.1.,"Fiber support, multiplicity, and intersection number must be distinguished."
+V-019,170,"When the first pencil has no base points, χ is a component of its two-pencil Jacobian and L_1 is the residual curve.",proved,,V.1.,The residual curve passes through the i intersections of χ and ψ.
+V-020,170,The induced first-pencil series on L_1 has degree m_1=2s+2π_1−2.,proved,,Riemann–Hurwitz; V.1.,A general fiber misses the exceptional nonreduced component.
+V-021,170,"If σ=C_2·χ, the induced second-pencil series on L_1 has degree m_2=2s+2π_2−2−σ.",proved,The source then writes C_2·L instead of C_2·L_1.,Retain the residual Jacobian in the intersection; V.1.,Scan-confirmed source slip.
+V-022,170–171,The first induced map has ramification δ̄+τ+n_2+2i+2σ+2ρ−2.,proved,,V.1.,Five explicitly enumerated local contributions.
+V-023,171,2m_1+2g(L_1)−2=δ̄+τ+n_2+2i+2σ+2ρ−2.,proved,,Riemann–Hurwitz; V.1.,Double-component case.
+V-024,171,2m_2+2g(L_1)−2=δ_2+τ.,proved,,V.1.,The first pencil has no bases.
+V-025,171,Elimination gives δ̄−4π_1+2ρ−2+2i=δ_2−n_2−4π_2.,proved,,Direct subtraction and substitution; V.1.,Arithmetic checked.
+V-026,171,A fiber 2χ+ψ has contribution δ_0=2ρ−2+2i.,proved,"Assumes smooth components and ordinary transverse intersections, or added correction terms.",Euler proof V.1.2.,No bases on the resolved fibration.
+V-027,171,A fiber hχ+ψ has contribution δ_0=(h−1)(2ρ−2)+hi.,sketched,,Euler proof V.1.2.,Source says the previous argument extends.
+V-028,171–172,"For F_0=Σh_rχ_r, let i_rs count intersections between distinct components.",definition,,V.1.,The second sum is over unordered pairs; otherwise a factor of two is introduced.
+V-029,172,Godeaux's formula is δ_0=Σ(h_r−1)(2ρ_r−2)+Σ_{r<s}i_rs(h_r+h_s−1).,assumed from earlier work,Ordinary component/intersection assumptions are implicit.,"Euler and adjunction proof V.1.2; Godeaux1920/1934, Campedelli1934 as cited.",Full formula is quoted rather than derived in source.
+V-030,172,A node on a multiplicity-h component adds 2h−1 if its geometric genus is used.,stated without proof,,Euler defect calculation V.1.,Do not generalize this node correction to cusps.
+V-031,172,The same node adds one if its arithmetic genus is used.,stated without proof,,Difference of geometric and arithmetic genera is one; V.1.,Equivalent convention.
+V-032,172,Infinitely near bases can be eliminated by replacing them by exceptional curves and including those components in Godeaux's formula.,sketched,,Resolution of a pencil; V.1.,Each blowup changes the ambient Euler characteristic as well.
+V-033,172,"For a genus-b irrational pencil with fibers genus g, I=Δ+4(b−1)(g−1)−4.",proved,Δ must count Euler defects for nongeneric singular fibers.,Euler fibration formula V.2.1.,Source gives a second proof by composing with a line pencil on the base.
+V-034,172,A suitable degree-a map B→P1 exists for sufficiently large a; degree b+1 can be chosen appropriately.,assumed from earlier work,,Curve Riemann–Roch and a suitable base-point-free pencil.,Not every arbitrary divisor of that degree is asserted to work.
+V-035,173,A disjoint union of a genus-g fibers has arithmetic genus Π=ag−a+1.,proved,Must not be interpreted as the genus of a connected curve.,Euler characteristic of O for a disjoint union; V.2.,Source's reducible-composite-pencil convention.
+V-036,173,The map B→P1 has 2a+2b−2 simple ramification points in general position.,assumed from earlier work,,Riemann–Hurwitz; V.2.,Characteristic zero and generic simple ramification.
+V-037,173,Each resulting double fiber contributes 2g−2.,proved,,V.1 double-component formula with i=0.,Can be zero for genus one.
+V-038,173,I=Δ+(2π−2)(2a+2b−2)−4Π simplifies to the irrational-pencil formula.,proved,Printed π−2 omits the leading 2.,Scan-confirmed source misprint; V.2.,Corrected arithmetic agrees with the preceding sentence.
+V-039,173,Blowing up one smooth point increases I by one.,proved,,e(Bl_p S)=e(S)+1; V.3.,Source gives cases where the point is or is not a pencil base.
+V-040,173,Blowing up one smooth point decreases p^(1) by one.,assumed from earlier work,,K_Bl^2=K_S^2−1; V.3.,Earlier canonical-system results are imported.
+V-041,173,I+p^(1) is birationally invariant.,proved,,The two blowup changes cancel; V.3.,Relative invariants combine into an absolute one.
+V-042,173,Noether's formula reads I+p^(1)=12p_a+9.,proved,Classical proof later has printed errors that require correction.,HRR and Chern–Gauss–Bonnet; V.3.1.,Enriques credits Noether and follows Bonnesen.
+V-043,174,"A generic ordinary projection has degree n, section genus π, double-curve degree d and genus ρ, t triple points, and τ pinch points.",definition,Existence and genericity of an ordinary projection are imported.,V.3 gives the exact assumptions.,The double curve is assumed irreducible for convenience.
+V-044,174,"For the hyperplane pencil, I=δ−n−4π, where δ is the degree of the dual surface.",proved,,V.1 plus the interpretation of tangent hyperplanes.,Generic pencils only.
+V-045,174,The polar/Jacobian system has divisor class J=3H+K.,assumed from earlier work,,"Determinant of df to P2, K_S=f* K_P2+R.",Used repeatedly from earlier theory.
+V-046,174,J²=δ+τ=3n+12(π−1)+p^(1)−1.,proved,,Expand (3H+K)² with KH=2π−2−n.,τ simple base points of the polar system.
+V-047,174,d=(n−1)(n−2)/2−π.,proved,,Genus of the nodal plane hyperplane section.,Ordinary singularities assumption.
+V-048,174,The normalization genus Π of the conductor curve satisfies p_a(Δ)=Π+3t.,stated without proof,,Three nodes above each ordinary triple point; V.3.,Distinguish geometric from arithmetic genus.
+V-049,175,Δ+K is linearly equivalent to (n−4)H.,assumed from earlier work,,Normalization/conductor adjunction; V.3.,The source states the divisor relation.
+V-050,175,2(Π+3t)−2=2(n−4)d.,proved,,Adjunction on Δ and H·Δ=2d.,Reference to formula (2) for d should be (3).
+V-051,175,2Π−2=2(2ρ−2)+τ.,proved,,Riemann–Hurwitz for normalized conductor double cover.,τ branch points are pinch points.
+V-052,175,J·Δ=2n²−7n+15+2π(n−7)−p^(1).,proved,Printed expansion omits −p^(1).,Direct intersection expansion; V.3.,Source misprint confirmed in scan.
+V-053,175,The second polar meets the double curve away from triple points in α=(n−2)d−3t.,proved,,Bézout with ordinary triple-point multiplicity correction.,Count symbol is Greek α; first-pass a is transcription.
+V-054,175,J·Δ=α+τ.,proved,,Local second-polar and pinch-point contributions.,No mathematical error.
+V-055,175,Correct equation (6): 2n²−7n+15+2π(n−7)−p^(1)−τ=(n−2)d−3t.,proved,Source instead prints 2n²+n+14+2π(n−7)−p^(1) on the left.,Combine previous two identities; V.3.2.,Genuine printed mathematical error.
+V-056,175,"p_a=binom(n−1,3)−(n−4)d+2t+ρ−1.",stated without proof,Normalization/conductor Euler calculation is not explained here.,Conductor exact-sequence derivation in V.3.,Valid for ordinary projection.
+V-057,175,The same p_a equals (n−1)(n−2)(9−2n)/6+π(n−4)+2t+ρ−1.,proved,,Insert the formula for d.,Algebraic rearrangement.
+V-058,176,"Seven equations express δ,I,d,ρ,Π,τ,t in terms of n,π,p_a,p^(1).",proved,Printed 'seven characters' list omits d; cross-reference for d is again wrong.,Use corrected seven-equation system V.3.2.,No claim that arbitrary numerical tuples are geometrically realizable.
+V-059,176,δ=n+4π−p^(1)+12p_a+9.,proved,,Solution of corrected system V.3.2.,Verified algebraically.
+V-060,176,ρ=(n²−7n+48)/2+(n−12)π+9p_a−2p^(1).,proved,,Solution of corrected system.,Geometric interpretation assumes irreducible double curve.
+V-061,176,Π=n²−6n+2(n−10)π+12p_a−3p^(1)+36.,proved,,Solution of corrected system.,Correct.
+V-062,176,t=(n³−9n²+26n−78)/6−(n−8)π−4p_a+p^(1).,proved,,Solution of corrected system.,Doubtful exponent resolved as n³.
+V-063,176,τ=2n+8π−12p_a+2p^(1)−22.,proved,,Solution of corrected system.,Correct.
+V-064,176,I=12p_a−p^(1)+9.,proved,,Noether formula V.3.1.,Final elimination result.
+V-065,176,2n+8π−τ=12p_a−2p^(1)+22.,proved,,Rearrange τ formula.,Relative invariant of the chosen smooth model.
+V-066,176,2δ−τ=36p_a−4p^(1)+40.,proved,,Combine δ and τ formulas.,Relative invariant.
+V-067,177,τ counts the relevant double-base pencils in a generic three-dimensional system.,stated without proof,Requires ordinary projection and correct interpretation of the discriminant incidence.,V.3.,Not all arbitrary pencils have only this local type.
+V-068,177,"A generic conic pencil on P2 has π=0, n=4, δ=3.",assumed from earlier work,,Classical pencil of conics; V.3 examples.,Three reducible nodal conics.
+V-069,177,For the plane I=−1 and p^(1)=10.,proved,,I=3−4 and Noether with p_a=0.,Relative value K_P2²+1.
+V-070,177,"For a minimal ruled surface over genus b>0, p_a=−b and the ruling has π=0 and Δ=0.",assumed from earlier work,,Ruled-surface cohomology and fibration; V.3.,No exceptional fibers on the relatively minimal model.
+V-071,177,Its Zeuthen invariant is I=−4b.,proved,,I=4(b−1)(−1)−4.,Correct.
+V-072,177,Its linear genus is p^(1)=9−8b.,proved,,Noether formula with p_a=−b.,Depends on specified minimal ruled model.
+V-073,178,The parabolic locus of an ordinary projected surface is cut by its Hessian.,assumed from earlier work,,Degeneration of the second fundamental form; V.4.,Generic smooth-locus statement.
+V-074,178,The homogeneous Hessian of a degree-n surface has degree 4n−8.,proved,,Four-by-four determinant of degree-(n−2) entries.,The matrix contains derivatives of one polynomial F.
+V-075,178,The Hessian has multiplicity four along an ordinary double curve.,sketched,"As stated for any biplanar isolated point, the sentence is too broad.",Retain ordinary double-curve hypothesis; F=uxy+z³ is a counterexample to the broader reading.,V.4; source's local calculation is not written out.
+V-076,178,The proper parabolic divisor has class 8H+4K.,proved,,Subtract four times the conductor from the Hessian class.,V.4.
+V-077,179,Each pinch point has multiplicity two on the parabolic divisor and one on J.,sketched,,Stable local projection model; V.4.,Source argues via two cuspidal members of a fixed-tangent pencil.
+V-078,179,The number i of cuspidal members of a generic net is J·P−2τ.,proved,,Intersection with the parabolic locus minus pinch-point contributions.,Generic ordinary intersections required.
+V-079,179,J·P=24n+20(2π−2−n)+4p^(1)−4.,proved,,Expand (3H+K)(8H+4K).,Arithmetic checked.
+V-080,179,i=24(p_a+π).,proved,,Substitute τ and Noether; intrinsic jet proof can also be used.,Zeuthen formula.
+V-081,179,The cusp formula extends from a net inside a three-dimensional system to general sufficiently positive nets.,sketched,The fixed-component extension is not fully detailed.,Modern jet-bundle degeneracy calculation under genericity; V.4.,Not a claim for a specially chosen nongeneric net.
+V-082,179,The Jacobian of a polar net has fixed parabolic part and moving hyperplane part: J_2=P+H.,sketched,,Duality and tangent-plane argument in source footnote.,V.4.
+V-083,179,"Since J_2=3J+K, the duality argument gives P=8H+4K.",proved,,Substitute J=3H+K.,Alternative to Hessian calculation.
+V-084,180,i−24π=24p_a is independent of the net.,proved,,Previous formula and birational invariance of p_a.,Historical Zeuthen/Severi attributions distinguish original discovery and direct proof.
+V-085,180,Severi's 1902 work supplies a direct elementary proof of invariance of the net expression.,assumed from earlier work,,Historical source citation retained in V.H.,The direct proof is not reproduced.
+V-086,180,Curve correspondence formulas and Jacobian series motivate higher-dimensional equivalence systems.,stated without proof,"Programmatic analogy, not a proved construction of modern Chow theory.",V.5.,Severi1942 is a bibliography pointer.
+V-087,181,"A general net defines a finite degree-n map to P2, with branch curve the image of J.",definition,Base-point-freeness alone does not guarantee generic branching or finiteness.,Require a generic sufficiently ample net; V.6.,All subsequent numerical formulas use these hypotheses.
+V-088,181,Branch degree N=H·J=2n+2π−2.,proved,,R=K+3H; adjunction.,V.6.
+V-089,181,The branch normalization genus is P=p^(1)+9π−9.,proved,,Adjunction on R=K+3H.,V.6.
+V-090,181,The branch class is δ=n+4π+12p_a−p^(1)+9.,proved,,Nodal members of a general line pencil and V.3.,V.6.
+V-091,181,Triple contacts in the net correspond to branch cusps k.,definition,,Stable local three-sheet ramification model.,V.6.
+V-092,181,Cuspidal members of the net correspond to branch flexes i.,definition,,Duality of the discriminant curve.,V.6.
+V-093,181,Double contacts at distinct points correspond to nodes d of the branch curve.,definition,,Two independent simple ramifications over a branch node.,V.6.
+V-094,182,Two-nodal members correspond to ordinary bitangents t of the branch curve.,definition,,Dual-curve node interpretation.,V.6.
+V-095,182,The branch and dual branch obey Plücker formulas when no other point or tangential singularities occur.,assumed from earlier work,,Classical plane-curve Plücker formulas; V.6 derives each elimination.,Genericity is explicit in source.
+V-096,182,k=3(n+6π+p^(1)−4p_a−11).,proved,,Eliminate nodes from plane genus and class formulas.,Fourth formula A.
+V-097,182,i=24(π+p_a).,proved,,V.4 or Plücker flex formula.,Fifth formula A.
+V-098,182,d=2[(n+π)²−5n−17π−2p^(1)+6p_a+24].,proved,,Plane genus minus cusp number.,Sixth formula A.
+V-099,182,t=[(n+4π+12p_a−p^(1))²+15n−6π+132p_a−17p^(1)+74]/2.,proved,,Dual genus formula t=(δ−1)(δ−2)/2−P−i.,Seventh formula A.
+V-100,182,p^(1)=P−9π+9.,proved,,Invert branch-normalization genus formula.,First formula B.
+V-101,182,p_a=i/24−π.,proved,,Invert flex formula.,Second formula B.
+V-102,182,4p_a=n+P−3π−k/3−2.,proved,,Eliminate p^(1) between P and k formulas.,Equivalent second formula B.
+V-103,182,π=N/2−n+1.,proved,,Riemann–Hurwitz for a general line cover.,Correct branch degree normalization.
+V-104,182,3(n+6π)−k is an invariant of the chosen smooth surface model.,proved,Printed 3(n+6π−k) has erroneous parentheses.,Use the fourth formula A.,Source slip.
+V-105,182,24π−i=−24p_a gives a net-based definition of the absolute arithmetic genus.,proved,,Zeuthen formula and direct invariance cited to Severi.,Initials G.H. should be H.G. Zeuthen.
+V-106,183,"A finite (1,n) correspondence means a generically degree-n morphism X→Y without contracted curves in either direction.",definition,,Modern finite-map formulation V.7.,"'Involution of order n' here means fibers of a degree-n map, not necessarily a group of order n."
+V-107,183,Pullback of the lower Jacobian is part of the upper Jacobian; the missing part is ramification.,proved,,Determinant of df; V.7.,Simple ramification initially.
+V-108,183,K_X=f*K_Y+R_f.,proved,R_f is not generally the whole pullback of the branch curve.,Canonical divisor formula V.7.1.,For higher ramification include e−1 coefficients.
+V-109,183,A fundamental exceptional curve must be included when the correspondence contracts it.,stated without proof,Coefficient one is not a universal rule for composites of blowups.,Resolve the map and apply the blowup discrepancy formula at each step.,The text gives no arbitrary-multiplicity discrepancy formula.
+V-110,183,The canonical transformation formula remains meaningful for virtual canonical divisors.,proved,,Divisor classes need not be effective; V.7.,Necessary for rational base surfaces.
+V-111,183,"A double plane has equation z²=f_2n(x,y), with branch singularities interpreted by Chapter III §7.",definition,Required resolution conventions lie outside this excerpt.,Canonical resolution and line bundle L; V.7.,Do not treat the singular branch as smooth.
+V-112,183–184,The adjoint to a pulled-back plane curve is the pullback of its plane adjoint plus ramification.,proved,,Adjunction and K_X=f*K_Y+R_f.,Repeated adjunction adds repeated ramification.
+V-113,184,K_P2 is represented virtually by the difference between degree-(m−3) and degree-m plane curves.,proved,,K_P2=−3H.,Divisor-class statement.
+V-114,184,Second adjoints of the degree-2n branch curve give invariant bicanonical curves.,proved,,Invariant summand H0(O(2n−6)) in V.7.2.,Appropriate adjoint ideals are needed if branch singular.
+V-115,184,Canonical curves of the double plane descend to degree-(n−3) curves with the imported singularity conditions.,assumed from earlier work,,Double-cover formula V.7.2; source cites Chapter III §7.,Half of the second-adjoint class.
+V-116,184,Third and higher adjoints combined with branch yield pluricanonical curves.,sketched,,General eigenspace decomposition V.7.2.,The construction gives the two summands; not every member descends.
+V-117,184,The other bicanonical eigenspace consists of ramification plus pullbacks of degree-(n−6) adjoints.,proved,,Anti-invariant summand in V.7.2.,Square-root coordinate vanishes on ramification.
+V-118,184,"The involution acts linearly on H0(2K) with two eigenspaces, whose projectivizations have dimensions r,t.",definition,,Characteristic-zero linear algebra.,An empty projective eigenspace has dimension −1.
+V-119,184,P_2−1=r+t+1.,proved,,Vector-space dimensions add: P_2=(r+1)+(t+1).,No source error.
+V-120,184,"If π=t+1 is the adjoint genus in the source's convention, P_2=r+π+1.",proved,,Substitute t+1=π.,Uses the identification of complete adjoint systems with curve differentials.
+V-121,184–185,"r+1 is the genus attached to the first adjoints f_(2n−3), and π is the genus of f_(n−3).",assumed from earlier work,Completeness and singular-adjoint conventions are imported.,Curve adjunction; V.7.,Do not use smooth degree formulas at unresolved singularities.
+V-122,185,"If all plurigenera vanish, all successive adjoint systems of the branch curve vanish.",sketched,,Iterate double-cover adjunction; V.7.,Uses full singularity conventions.
+V-123,185,"Such a branch curve is birationally reducible to degree 2n with a (2n−2)-fold point, a quartic, a sextic with two infinitely near triple points, or a specialization thereof.",assumed from earlier work,,"Castelnuovo–Enriques1900, cited via Enriques–Conforto §27 p489.",The plane-curve classification is not proved here.
+V-124,185,A double plane with all plurigenera zero is rational or birationally ruled over a hyperelliptic curve.,assumed from earlier work,,Complex κ=−∞ classification plus involution on the ruled base; V.7.,"Hyperelliptic is about the base curve, not the later modern surface class."
+V-125,185,"For a dominant generically finite separable map, p_g(X)≥p_g(Y).",proved,,Pull back regular two-forms; V.8.,Inseparable maps in positive characteristic require separate treatment.
+V-126,185,A simple branch curve has nodes representing two distinct double coincidences and cusps representing a triple coincidence.,definition,,Stable branch local models; V.8.,Other branch singularities are excluded in the stated formula.
+V-127,185,"The pullback of a canonical curve on Y has genus n(p^(1)−1)+s/2+1, where s=K_Y·B.",proved,,Riemann–Hurwitz.,Virtual-divisor extension is intersection-theoretic.
+V-128,185,P^(1)=n(p^(1)−1)+ρ+3s/2.,proved,,Add the ramification divisor and use genus-addition formula.,V.8.1; source switches branch notation D/d.
+V-129,187,"Using Noether, 24(P_a+1)=24n(p_a+1)+6ρ−6+3s−2c.",proved,The intervening p186 is absent; its original derivation cannot be audited.,Modern independent Euler-stratification proof V.8.2–3.,"c denotes branch cusps, not holomorphic Euler characteristic."
+V-130,187,In the unramified case set ρ=1 and s=0.,definition,,Convention 2−2ρ=0 for empty branch.,No actual genus-one branch curve is asserted.
+V-131,187,"For B²=ν and nodal/cuspidal B, s=2(ρ+ε+c)−2−ν.",proved,,Adjunction for the arithmetic genus of B.,"ρ is normalization genus, ε nodes, c cusps."
+V-132,187,P^(1)=n(p^(1)−1)+4ρ+3(ε+c)−3ν/2−3.,proved,,Substitute the preceding s.,Correct.
+V-133,187,24(P_a+1)=24n(p_a+1)+12ρ−12+6ε+4c−3ν.,proved,Printed final −3 omits ν.,Direct substitution; compare p188 −3N².,Scan-confirmed source misprint.
+V-134,187,K_X²=nK_Y²+R²+2s.,proved,,Expand the canonical divisor formula.,Source writes P^(1)−1=n(p^(1)−1)+x+2s.
+V-135,187,The ramification self-intersection is R²=ν/2−(ε+c).,proved,,Compare the previous identity with V.8.1.,Correct under simple branch local models.
+V-136,187–188,A smooth branch component in a double cover has ramification self-intersection one half its self-intersection.,proved,,f*B=2R and (f*B)²=2B².,"The word degree denotes intersection number, not plane degree."
+V-137,188,"Substituting Y=P2, p_a=0, p^(1)=10, ν=N², ρ=P, ε=d, c=k recovers multiple-plane formulas.",proved,,V.8 direct calculation.,Explicit consistency check in source.
+V-138,188,The recovered linear-genus formula is P^(1)=P−9π+9.,proved,,Use P=(N−1)(N−2)/2−d−k and N=2n+2π−2.,Same as V.6 B.
+V-139,188,The recovered arithmetic-genus formula is 4P_a=n+P−3π−k/3−2.,proved,,Eliminate N² and the branch singularity counts.,Same as V.6 B.
+V-140,188,"A Kummer quartic has sixteen nodes and sixteen trope planes, each trope conic containing six nodes.",assumed from earlier work,,Enriques–Chisini BookVI §40 volIV p246 as cited.,Classical 16_6 configuration.
+V-141,188–189,"Three tropes through a node define a tetrahedron with four nodal vertices and twelve other nodes, three on each face.",proved,,Incidence calculation in source using the Kummer configuration.,V.8.
+V-142,189,Adjoining sqrt(T) to the Kummer quartic gives a degree-two cover branched only at the sixteen exceptional node curves on its resolution.,proved,Must resolve the quartic before speaking of a smooth branched cover.,V.8 double-cover construction.,Positive-degree branch components cancel because the tetrahedron cuts them evenly.
+V-143,189,The sixteen branch curves ensure the cover is irreducible.,proved,,A disconnected double cover would be unramified and split; branch prevents splitting.,Also related by source to Comessatti's criterion.
+V-144,189,Comessatti's criterion: an everywhere-even-contact curve splits in a double cover exactly when the half-contact divisor is linearly equivalent to the restricted square-root branch class.,assumed from earlier work,,Line-bundle restriction of the double-cover algebra; V.8.,Even contact alone is insufficient.
+V-145,189,The pullback of a genus-three quartic section is genus five with self-intersection eight.,proved,,Unramified degree-two Riemann–Hurwitz and intersection pullback.,The linear system on the minimal abelian surface has 8=2·5−2.
+V-146,189,"The minimal cover has p_g=1, K linearly trivial, p^(1)=1, and all P_m=1.",sketched,The trivial-canonical inference is compressed in the source.,Resolve the double cover and contract its sixteen (-1)-curves; V.8.,Not inferred solely from the section degree/genus equality.
+V-147,189,"On the branched smooth resolution model, ρ=−15, ν=−32, ε=c=0 and P^(1)=−15.",proved,,Sixteen disjoint rational (-2)-curves; V.8.,ρ is arithmetic/Euler convention for disconnected normalization.
+V-148,190,Contracting the sixteen resulting (-1)-curves changes P^(1) from −15 to 1.,proved,,K² increases by sixteen.,Source resolves its apparent paradox explicitly.
+V-149,190,The Kummer double cover has P_a=−1.,proved,,24χ=96−180−12+96=0.,Arithmetic checked.
+V-150,190,"For a genus-two curve C, Sym²(C) is birational to the Kummer double cover/its Jacobian.",assumed from earlier work,,Klein construction cited via Enriques–Chisini; Enriques–Severi1909.,Birational equivalence is not isomorphism.
+V-151,190,"For a degree-four g^2_4 class L, the involution sends the degree-two divisor D to its residual class L−D.",definition,,Genus-two Riemann–Roch and effectivity of general degree-two classes.,Historical construction of Kummer quotient.
+V-152,190,Its sixteen fixed points correspond to the sixteen solutions 2D=L.,assumed from earlier work,,Multiplication by two on a genus-two Jacobian has degree sixteen.,General L avoids special positive-dimensional fibers.
+V-153,190,"The resulting surface has p_g=1, p_a=−1, q=2, and all plurigenera one.",proved,,Combine explicit cover and Euler calculation.,Historical 'hyperelliptic surface' here is an abelian-surface model.
+V-154,190–191,"The tetrahedral sextic has p_g=p_a=0, P_2=1, p^(1)=1 and nontrivial canonical two-torsion.",assumed from earlier work,,Source cites ChapterII §8; modern Enriques normalization.,The last torsion interpretation uses the canonical-cover framework.
+V-155,191,"The cover obtained by adjoining sqrt(T) is étale after normalizing the sextic, including above tetrahedron vertices.",sketched,,"Local branch-parity calculation, or conductor identification with canonical cover; V.8.",Source analyzes the three branches at each vertex.
+V-156,191,A pulled-back hyperplane section has genus seven and self-intersection twelve.,proved,,Unramified double cover of genus-four section; intersection doubles.,12=2·7−2.
+V-157,191,The identity 2(C'−C)∼0 is asserted to imply C'−C∼0.,proved,Inference is invalid without excluding two-torsion.,Identify the particular cover as canonical using K_Y=2H−Δ and div(T)=2Δ; V.8.,"The corrected conclusion is true, but cancellation alone is not a proof."
+V-158,191,"The canonical double cover has p_g=1, p^(1)=1, and all P_m=1.",proved,Depends on the preceding repaired canonical-triviality argument.,V.8 canonical-cover proof.,It is a K3 surface over C.
+V-159,191,"For the étale cover, n=2, ρ=1, ν=ε=c=0 and P^(1)=1.",proved,,V.8 formulas.,No branch divisor is present.
+V-160,191,"24(P_a+1)=2·24(p_a+1)=48, hence P_a=1.",proved,First-pass '2 : 24' is not a secure printed division sign; scan shows dot/fleck.,Multiplication required and mathematically confirmed.,Do not classify author division error with certainty.
+V-161,192,The Enriques sextic has a double model with p_g=p_a=1 and trivial canonical curve.,proved,,Canonical-cover construction and previous numerical calculations.,Source cites Enriques1908.
+V-162,192,A cyclic equation z^n=f has discriminant branch multiplicity n−1 along reduced f=0.,proved,,Local ramification index n.,Distinguish reduced branch support from discriminant divisor.
+V-163,192,"For branch degree m, the monodromy at infinity is an mth power of an n-cycle and is trivial iff n divides m.",proved,,Product of finite meridians; V.9.,Inverse convention does not change triviality.
+V-164,192,"If n does not divide m, the infinity line contributes additional branching.",proved,,"Local ramification index n/gcd(n,m).","Exact discriminant coefficient n−gcd(n,m) is an audit refinement."
+V-165,192–193,Prescribing a plane branch curve imposes more than freely choosing point branch locations for a curve cover.,stated without proof,,Global complement representation and local monodromy conditions; V.9.,"Existence problem, distinct from numerical branch identities."
+V-166,193,"For fixed branch points and degree, finitely many transitive monodromy tuples define curve covers.",assumed from earlier work,,Riemann existence; Enriques–Chisini BookV §33 volIII p355.,Finite up to simultaneous conjugation.
+V-167,193,"A generic plane branch curve is asserted, with qualification, to determine a unique covering surface class.",assumed from earlier work,The blanket uniqueness problem cannot be treated as proved here.,"Kulikov (2008), Theorem p.902 proves uniqueness for generic linear projections with the Veronese exception; retain distinction from general cover conjectures; commentary V.9.",Do not confuse existence with uniqueness.
+V-168,193,The critical polynomial discriminant is a resultant of F and ∂F/∂z.,definition,,Elimination theory.,Leading coefficients and infinity are treated by projective normalization.
+V-169,193,"For an ordinary projection, Δ=Δ_1Δ_2², with Δ_2 the apparent double-curve image and Δ_1 genuine simple branch.",stated without proof,Not a universal factorization for arbitrary singular equations.,Normalize the cover; ordinary local double crossings explain squared factor.,V.9.
+V-170,194,The simply branched plane curve has even degree 2m.,proved,,"A generic line has an even number of transposition branch points, by Riemann–Hurwitz/parity.",An odd affine degree requires infinity branching.
+V-171,194,Nodes and cusps coming from singularities of the covering surface are excluded from generic smooth-cover singularity counts.,definition,,Local monodromy distinguishes singular total spaces.,Source calls such branch singularities virtually nonexistent.
+V-172,194,Assign 2m transpositions generating a transitive subgroup with product identity to construct a connected line cover.,assumed from earlier work,,Riemann existence theorem.,Labels matter up to simultaneous conjugation.
+V-173,194,The genus of that line cover is m−n+1.,proved,Printed formula is m/2−n+1 despite 2m simple branch points.,Riemann–Hurwitz 2g−2=−2n+2m.,Scan-confirmed source misprint.
+V-174,194,Moving the line parameter permutes the finite set of cover classes by braid monodromy.,proved,,Transport branch points and Hurwitz tuples.,V.9.
+V-175,194–195,A global degree-n plane cover requires one line-cover class to return to itself around every parameter loop.,proved,,Restriction of the global cover.,Necessary descent condition.
+V-176,195,Branch points and an ordered system of noncrossing arcs can be transported continuously away from critical parameter values.,proved,,Isotopy of punctured line.,V.9.
+V-177,195,A contractible parameter loop avoiding all critical values imposes no additional monodromy condition.,proved,,Homotopy invariance.,The projective infinity relation must still be retained globally.
+V-178,196,"It suffices to check loops around simple tangencies, nodes, and cusps in a generic line pencil.",proved,Assumes no further singular critical types.,Braid monodromy/van Kampen description; V.9.,Genericity is essential.
+V-179,196,Adjacent or 'honestly close' vanishing arcs are those enclosing no other punctures between them.,definition,,V.9.,This is a topological condition on the chosen arcs.
+V-180,196,"At a simple tangent line, the two corresponding transpositions must be identical.",proved,,Local braid fixed-tuple condition.,Necessary and sufficient local condition.
+V-181,196,"At a node with smooth covering surface, the two transpositions are disjoint and commute.",proved,,Two distinct simple ramification points.,Identical transpositions produce the singular-cover exception in the footnote.
+V-182,197,"At a cusp with smooth covering surface, the two transpositions share one letter and their product is a three-cycle.",proved,,Local three-sheet cusp model and braid relation.,Identical transpositions are not the smooth generic cusp model.
+V-183,197,"Nonadjacent arcs can be brought together by Hurwitz moves, changing their assigned transpositions by conjugation.",proved,,Explicit braid action; V.9.,Crossing an arc without updating labels is not permitted.
+V-184,197,The three local monodromy conditions are necessary for a smooth generic plane cover.,proved,,Restriction of cover to local neighborhoods.,Summarizing theorem.
+V-185,197–198,"Those conditions, together with transitivity and the global product relation, are sufficient.",sketched,"Algebraization, descent, and local extension are compressed.",SGA1 ExposéXII Thm5.1 plus normalization and local smoothness checks; V.9.,Modern proof supplied independently.
+V-186,198,High-degree plane realizations of a fixed line cover can be normalized by incidence and linear conditions to a finite set.,assumed from earlier work,,Source cites Enriques–Chisini BookV §33 volIII p355.,Precise construction not reproduced.
+V-187,198,Summing the resulting functions produces a rationally determined degree-n function.,sketched,A sum can lose primitivity unless common labeled fiber values are imposed.,"Use the distinct O_i with consistent labels, or the modern monodromy proof.",Do not claim arbitrary traces remain primitive.
+V-188,198,The distinct prescribed points over the pencil center exclude extra branch lines through the center in the constructed family.,sketched,Requires the normalized family and its extension to exist.,Local covering extension in the modern proof.,Source gives only a brief geometric argument.
+V-189,198,Branch realizability persists in a continuous nodal/cuspidal family.,proved,Needs a connected topologically locally trivial equisingular family; numbers alone are insufficient.,Transport the complement representation; V.9.,Different components or degenerations through worse singularities are not covered.
+V-190,199,The existence theorem is attributed to Enriques1923 and its group formulation to Zariski1929/1931.,assumed from earlier work,,Historical citations retained.,No priority claim beyond the source.
+V-191,199,An irreducible cusp-free nodal curve cannot be reduced simple branch of a connected cover of degree greater than two.,assumed from earlier work,Zariski's original route used an irreducibility result not yet proved; scope excludes arbitrary reducible branch and non-simple ramification.,Deligne1981 Thm1; Fulton1980; cyclic nodal-complement group; V.10.,Modern rigorous repair is distinct from historical attribution.
+V-192,199,The non-simple cyclic exception has branch divisor counted n−1 times.,proved,,Cyclic monodromy and discriminant multiplicity.,Standing irreducibility assumption matters.
+V-193,199–200,"If the surface splits into degree-n and degree-s pieces, its limiting branch divisor is B_n+B_s+2C.",proved,,Discriminant-of-product identity with squared resultant; V.10.,C is image of the intersection of the components.
+V-194,200,Chisini reduces the induction problem to adjoining a doubled curve to an n-plane branch to obtain an (n+1)-plane branch.,definition,Smoothing with the right monodromy is a separate existence question.,V.10.,"The source presents this as a method, not automatic sufficiency."
+V-195,200,A generic quartic surface projection has degree-twelve branch with twelve nodes and twenty-four cusps.,proved,,"V.6 with n=4,π=3,p_a=p^(1)=1.",Arithmetic checked.
+V-196,200,"Moving the center onto the quartic gives C_10+2L, where C_10 has eighteen cusps, no nodes, and L is bitangent.",sketched,,Projection from a smooth point and branch formulas.,Generic degeneration assumptions.
+V-197,200,"At an ordinary double center, C_10 degenerates to C_6+2Q with a six-tangent conic Q.",sketched,The sextic must lie in the special locus possessing such a conic.,V.10.,'General sextic' cannot mean a completely unrestricted plane sextic here.
+V-198,200,"At a triple center, the double-plane sextic degenerates to a doubled cubic.",sketched,,Leading projection equation; Chisini method.,No global converse is established by this observation alone.
+V-199,200,Each tangency to the added doubled line absorbs three cusps; each of its six remaining intersections absorbs two nodes.,proved,,Polar and bitangent local analysis described by source.,Accounts for cusp and node differences.
+V-200,201,Each of the six conic tangencies absorbs three cusps in C_10→C_6+2Q.,proved,,Same local model.,Eighteen cusps total.
+V-201,201,The degeneration can be reversed in the stated special configurations to construct triple and quadruple planes.,assumed from earlier work,"Global smoothing/monodromy is cited to Chisini, not fully constructed.",Chisini1934/1938/1939 as cited; V.10.,Not valid for arbitrary doubled curves.
+V-202,201,"For p_a=p_g=p^(1)=1 and n=2π−2, branch degree is 3n=6π−6.",proved,,V.6.,K3 numerical setting.
+V-203,201,In that setting k(π)=24(π−2).,proved,,Substitute in cusp formula.,Correct.
+V-204,201,In that setting d(π)=18π²−78π+84.,proved,,Substitute in node formula.,Correct.
+V-205,201–202,"A smooth finite cover with those data has trivial canonical bundle, p_g=1, q=0, and h0(H)=π+1.",sketched,Triviality is more than a numerical equality; positivity is needed.,χ=2 gives an effective K; KH=0 and ample H force K=0; Kodaira vanishing gives h0.,Modern reconstruction V.10.
+V-206,202,"Such a polarized surface is represented by degree 2π−2 in P^π with canonical hyperplane sections, subject to embedding hypotheses.",stated without proof,An ample K3 polarization need not always be very ample.,Retain the generic embedding hypothesis; separate finite morphism from embedding.,Source assumes the relevant simple system.
+V-207,202,The π=3→4 conic stage gives degree-sixteen branch with forty-two cusps and thirty-six nodes.,proved,,24+18=42;12+24=36.,Conditional on successful smoothing.
+V-208,202,The following line stage gives degree-eighteen branch with forty-eight cusps and sixty nodes.,proved,,Add six cusps and twenty-four nodes.,Conditional on successful smoothing.
+V-209,202,The proposed K3 families have at least nineteen polarized moduli.,assumed from earlier work,,"Anticipates §11, then later K3 moduli theory.",Not a proof that a desired contact specialization exists.
+V-210,202,One parameter is heuristically expected to impose a six-tangent conic.,sketched,Dimension availability alone does not prove nonemptiness or transversality.,Need actual incidence/smoothing construction; V.10.,Enriques acknowledges a related obstruction on p203.
+V-211,202–203,The general conic stage adds eighteen cusps and 12n−24 nodes.,proved,,"Six tangencies and 6n−12 simple intersections, each with stated local contribution.",Conditional local count.
+V-212,203,An arbitrary six-tangent conic need not satisfy the smoothing and monodromy requirements.,proved,,Explicitly acknowledged limitation in source.,Do not invent a claim that Enriques completed the induction.
+V-213,203,For n=4 a suitable choice can be obtained from a Chisini limit with a second six-tangent conic to the sextic.,sketched,,Special construction cited/described.,No general high-n argument is given.
+V-214,203,"After the conic stage succeeds, the appropriate doubled bitangent line arises from an exceptional curve on the intermediate covering surface.",sketched,The numerical/canonical contraction argument is compressed.,"Intermediate p_a=1,K²=−1, KH=1 forces effective K to be a (-1)-curve; contract it to K3; V.10 supplement.",Very ampleness/projection genericity still require qualifications.
+V-215,203,The full existence and classification of all the proposed K3 models is deferred to ChapterVII §3.,assumed from earlier work,,Outside supplied substantive pages.,No proof here for all π.
+V-216,204,"The listed double-plane, biquadratic, triple-plane, and dihedral-plane papers supply further examples and classifications.",assumed from earlier work,,"Campedelli, Libois, B.Segre, Pompilj citations as listed in V.H.","Bibliographic pointers, not reproduced theorems."
+V-217,204,Moduli count means dimension of a family of birational equivalence classes with fixed numerical characters.,definition,Must specify polarization and component; not all surfaces with fixed invariants form one smooth family.,V.11.,Source begins with regular nonruled minimal surfaces.
+V-218,204,"A regular surface with some P_m>0 admits a minimal model, with absolute p^(1) in the nonruled case.",assumed from earlier work,,Minimal surface theory over C; later ChapterVI.,No claim of uniqueness of rational minimal models.
+V-219,204,"For sufficiently positive regular nonspecial H, dim(H)=r=p+n−π+1.",proved,,Surface Riemann–Roch with H1(H)=H2(H)=0.,Source imports regularity/nonspeciality.
+V-220,204,"On the minimal nonruled surface, H²=n≤2π−2.",assumed from earlier work,,K nef and adjunction; V.11.,Required minimality and characteristic zero.
+V-221,205,The degree-N nodal/cuspidal branch stratum has component dimension at least N(N+3)/2−d−2k.,proved,,At most one condition per free node and two per free cusp; local equisingular scheme equations.,Does not require unobstructedness.
+V-222,205,"With N=2n+2π−2, the expected branch dimension is (n+π−1)(2n+2π+1)−d−2k.",proved,,Expand N(N+3)/2.,Correct.
+V-223,205,Projective coordinate changes of P2 contribute eight redundant parameters.,proved,,"dim PGL3=8, finite generic stabilizer.",V.11.
+V-224,205,A net in an r-dimensional complete linear system depends on 3r−6 parameters.,proved,,"dim Gr(3,r+1)=3(r−2).",Vector/projective dimensions distinguished.
+V-225,205,"For q=0, a continuously varying system class on a fixed surface remains linearly equivalent.",assumed from earlier work,,Pic0(S) has dimension q.,Earlier irregularity theory imported.
+V-226,205,Subtracting coordinate and net choices gives M≥s_0−8−(3r−6).,proved,Requires the stated generic fiber count and finite automorphism stabilizer.,"V.11; finiteness of monodromy representations suffices, not uniqueness.",Source's first lower bound.
+V-227,205,"If a genus-π moving system has base multiplicities i_j and resolved self-intersection n, K·L=2π−2−n−Σi_j.",proved,"Source prints −Σi_j², inconsistent with geometric genus except for simple bases.",Blowup adjunction computation V.11.,The negative-intersection conclusion survives correction.
+V-228,205,A degeneration L→H+θ with those base points gives K·θ=−Σi_j<0.,proved,Source writes squares; same sign but wrong quantitative value in general.,Correct preceding adjunction identity.,Contradicts K nef.
+V-229,205,The residual component has θ²=2p_a(θ)−2+Σi_j>2p_a(θ)−2.,proved,Source has Σi_j² and must use arithmetic genus for reducible/singular θ.,"Adjunction, or directly use K·θ<0.",Negativity is the robust conclusion.
+V-230,205–206,A regular nonruled surface admits no positive-dimensional family of birational automorphisms preserving the relevant polarization.,assumed from earlier work,,Pic0=0 and Enriques–Fano restriction on projective automorphism groups.,Infinite discrete automorphism groups remain possible.
+V-231,206,M≥s_0−3r−2.,proved,,Simplify the redundant parameter count.,Same lower bound.
+V-232,206,"Substituting d,k,r yields M≥9p−2p^(1)+12.",proved,,V.6 formulas and Riemann–Roch; V.11.,Arithmetic identity.
+V-233,206,Writing actual branch excess as ω≥0 gives M=9p−2p^(1)+12+ω.,definition,"ω denotes actual family excess, not automatically cohomological speciality.",V.11.,The first moduli formula does not use §12's hypothesis.
+V-234,206,The excess ω measures dependence of the cusp conditions beyond the nodal expected-dimension count.,definition,Actual dimension excess differs from tangent-space excess if obstructed/nonreduced.,V.12.,Source interprets it as k−ω independent conditions.
+V-235,207,"For an irregular surface, q=p_g−p_a parameters of nonequivalent line systems must be subtracted.",assumed from earlier work,,dim Pic0(S)=q.,Property is promised later proof in source.
+V-236,207,The first irregular moduli expression is M=10p_a−p_g−2p^(1)+12+ω.,proved,Continuous automorphisms require a correction or redefinition of ω.,V.11 fiber count.,Source footnote allows modified meaning of ω.
+V-237,207,"For p=1,p^(1)=1 the first baseline equals nineteen.",proved,,9−2+12=19.,K3 setting.
+V-238,207,"For p=0,p^(1)=1 the first baseline equals ten.",proved,,−2+12=10.,Enriques setting.
+V-239,207,"The actual polarized K3 family dimension is nineteen, and the Enriques family dimension is ten, so ω=0 in these examples.",stated without proof,K3 unpolarized analytic deformations have dimension twenty.,Specify fixed polarization; later theory promised by source.,V.11.
+V-240,207,In general ω can be positive.,stated without proof,,Modern excess-dimension examples; V.12.,No explicit example proved on this page.
+V-241,207,A neighboring equisingular degree-n curve has two intersections absorbed at each node and three at each ordinary cusp.,assumed from earlier work,,"Local ideals (x,y) and (x²,y); V.12.",De Jonquières–Beck observation cited.
+V-242,207–208,The characteristic linear series lies in the complete series of degree-n adjoints passing through nodes/cusps and tangent to cusp tangents.,proved,,Normalization of the equisingular normal sheaf; V.12.,"Inclusion, not automatic equality."
+V-243,208,The expected family dimension is r=n(n+3)/2−d−2k.,definition,,Plane parameter space minus local codimensions.,Source temporarily reuses n for plane degree.
+V-244,208,The actual component dimension is r+ω.,definition,,Definition of excess ω.,No smoothness assumed.
+V-245,208,The characteristic line-bundle degree is m=n²−2d−3k.,proved,Printed m=n−2d−3k omits the square.,Bézout and absorbed intersections; V.12.,Scan-confirmed source error.
+V-246,208,The normalization genus is π=n(n−3)/2+1−d−k.,proved,,Plane genus minus delta invariants.,Correct.
+V-247,208,The characteristic projective-series dimension is r+ω−1=m−π+ω.,proved,"Source prints ≥r+ω=m−π+ω, off by one after correcting m.",Keep projective series dimension distinct from tangent-vector dimension.,Separate source error.
+V-248,208,The speciality h1(A) is at least ω.,proved,,Curve Riemann–Roch h0(A)=r+h1(A) and tangent dimension bounds actual dimension.,Valid conclusion after dimensional correction.
+V-249,208,The indicated adjoint perturbations preserve nodes/cusps to first order.,sketched,,Equisingular tangent ideals; V.12.,First-order statement only.
+V-250,208,First-order equisingularity does not imply integration into an actual family of the same dimension.,proved,,Obstructed/nonreduced deformation theory; V.12.,Source explicitly explains the logical distinction.
+V-251,208,Dependent differentials of the local cusp equations can coexist with smaller actual intersection dimension.,sketched,,Tangent-space versus scheme dimension.,"The illustrative dimension letters in prose are heuristic, not a formal local model."
+V-252,209,"Working hypothesis: every complete nodal/cuspidal plane-curve family has complete characteristic series, so ω equals speciality.",stated without proof,Explicit conjectural hypothesis in source; false in unrestricted generality.,"Tannenbaum (1984), Introduction and §1; Wahl1974, Guffroy2003, Vakil2006 M5a–M5b; retain obstruction theory.",Do not report as a theorem Enriques claimed to prove.
+V-253,209,"Under the working hypothesis, the branch characteristic speciality equals the ω in the moduli formula.",proved,"Conditional, and invalid without the hypothesis.",V.12–13.,The assumption propagates into §13.
+V-254,209–210,"For a projection with J=3H+K and pinch divisor G, the branch polar series pulls back to the series cut on J by other Jacobians through G.",proved,,Tangent-plane/polar argument in source.,Generic ordinary model.
+V-255,210,The degree-N equisingular characteristic series pulls back to (4H+K) restricted to J minus G.,proved,Identifying it with actual characteristic deformations uses §12's assumption.,V.13.,Restriction notation is expanded for clarity.
+V-256,210,Its speciality supplies a projective interpretation of ω for regular and irregular surfaces.,proved,Conditional on identifying actual excess with complete-series speciality.,V.13.,Not an unconditional equality of deformation dimensions.
+V-257,210,The characteristic system for a family of ordinary projected surfaces is cut by degree-n adjoints with the indicated pinch-point tangent conditions.,sketched,,Normal-sheaf interpretation; V.13.,The differential system exists independently of integrability.
+V-258,210,Completeness of this surface characteristic system is asserted equivalent to the plane-branch working hypothesis.,sketched,Full comparison of deformation functors is not proved here.,Modern cover/branch deformation theory; keep the assertion conditional.,V.13.
+V-259,210,A sufficiently positive regular system can be chosen with n>π−1 and the necessary vanishing properties.,assumed from earlier work,,Serre/Kodaira vanishing and large ample multiples.,Not an assertion for arbitrary low-degree H.
+V-260,211,"The moduli dimension is M=R−S, actual family dimension minus generic equivalent-model dimension.",definition,,Fiber dimension theorem under specified genericity.,"R is vector/family dimension, R−1 characteristic projective dimension."
+V-261,211,dim(4H+K)=p+4π+6n−4 for sufficiently positive H.,proved,,Surface Riemann–Roch and vanishing.,V.13.
+V-262,211,"Under completeness, R−1=p+4π+6n−4−τ+ω.",proved,Conditional on actual characteristic completeness and restriction vanishing.,V.13.,G imposes τ−ω conditions in the nonspecial setup.
+V-263,211,R=13p+4n−4π−2p^(1)+19+ω.,proved,,Substitute τ from V.3.,Correct in the preceding conditional setup.
+V-264,211,Equivalent spatial models depend on S=4r−12+15=4r+3 parameters.,proved,,"Gr(4,r+1) plus PGL4.",Finite generic stabilizer assumed.
+V-265,211,S=4p+4n−4π+7.,proved,,Substitute r=p+n−π+1.,Correct.
+V-266,211,M=R−S=9p−2p^(1)+12+ω.,proved,,Arithmetic cancellation.,Reproduces the first formula under the stronger framework.
+V-267,211,For p>3 the text seeks ω≥p and M=10p−2p^(1)+12+ω' with ω'≥0.,stated without proof,Announced here; subsequent classical derivation remains conditional.,Kuranishi lower bound gives a modern independent replacement.,V.13.
+V-268,212,"For canonical H=K, n=p^(1)−1, π=p^(1), and dim K=p−1.",proved,,Adjunction and definition of geometric genus.,Canonical map must have the simple birational properties assumed by source.
+V-269,212,The canonical-net Jacobian is J=4K and its canonical bundle is 5K restricted to J.,proved,,Ramification class and adjunction.,Correct.
+V-270,212,The restriction H0(5K)→H0(K_J) is complete for q=0.,proved,,Exact sequence with kernel H0(K) and H1(K)=q=0.,Modern explanation supplied in V.13.
+V-271,212,"If θ=dim of the complete series G on J, then h1(K_J−G)=θ+1 and G imposes τ−θ conditions on the canonical series.",proved,Source inconsistently calls θ both speciality and projective dimension.,Curve Riemann–Roch and Serre duality; V.13.,"Distinguish θ, θ+1, and original ω."
+V-272,212,"With θ=h⁰(O_J(G))−1, the canonical characteristic equation is R−1=p+4π+6n−4−τ+θ, hence R=13p−2p^(1)+15+θ.",proved,The printed +ω must be +ω_can−1 when ω_can is the canonical speciality θ+1; printed excess and speciality conventions are inconsistent.,Recompute the conditions imposed by G on the complete canonical series; commentary V.13 gives the corrected intermediate equation.,This remains conditional on the characteristic-completeness assumption in Enriques's argument.
+V-273,212,"For the canonical system, equivalent projected models have dimension S=4p+4n−4π+3=4p−1.",proved,,"Gr(4,p) plus PGL4.",Four fewer parameters than the nonspecial r formula.
+V-274,212,The coherent canonical calculation gives M=9p−2p^(1)+16+θ.,proved,Surrounding ω/θ normalizations are inconsistent as printed.,Recompute with θ=h0(O_J(G))−1; V.13.1.,Still conditional on actual completeness in Enriques's method.
+V-275,212,"Original moduli excess equals θ+4, while canonical speciality equals θ+1.",proved,Printed θ=ω−4 conflicts with ω simultaneously called canonical speciality.,Use distinct symbols ω_mod and h1(K_J−G).,"Audit repair of notation, not a new theorem attributed to source."
+V-276,212,G is a special effective divisor on J in the canonical setup.,proved,,It is contained in a canonical divisor cut by 5K.,Requires existence of the indicated adjoint section.
+V-277,213,A fixed canonical net lies in a family of three-dimensional subsystems of dimension p−4.,proved,,P(H0(K)/V_3) has dimension p−4.,Source parameter count.
+V-278,213,Those systems give θ≥p−4 by varying their pinch-point groups on J.,sketched,Generic independence of the resulting divisors is not developed.,Modern Kuranishi proof avoids this dependence.,Conditional canonical argument.
+V-279,213,M≥10p−2p^(1)+12 under the working hypothesis and the stated canonical-map assumptions.,proved,Source explicitly says 'probably' and recalls its hypothesis.,"Independent modern proof: Catanese2013 §1.3 p13, Kuranishi inequality.",The conclusion survives by a different argument.
+V-280,213,Noether1888 proposed equality M=10p−2p^(1)+12 under broad conditions.,assumed from earlier work,Equality is not generally valid.,"Treat as historical prediction, not universal modern theorem.",Source cites Berlin Academy1888.
+V-281,213,Noether's heuristic counts M=N−R from a negative postulation number for a prescribed double curve.,sketched,Negative expected conditions do not prove actual codimension or smoothness.,"Use deformation spaces, tangent and obstruction groups.",V.14.
+V-282,214,Enriques's earlier 1908/1912 arguments implicitly assumed characteristic-system completeness.,assumed from earlier work,,Author's explicit retrospective statement.,Do not imply the 1949 text concealed the gap.
+V-283,214,Zariski1935 V§8 identified that gap; Severi1921 had identified an analogous irregularity-proof issue.,assumed from earlier work,,Historical attribution exactly as given by source.,Original pages were not all independently consulted.
+V-284,214,"The first general expression is M=10p_a−p_g−2p^(1)+12+ω, ω≥0.",proved,,"Actual branch-family parameter count, V.11.","Unlike stronger expression, not dependent on §12 in the revised presentation."
+V-285,214,"The stronger regular expression is M=10p−2p^(1)+12+ω', ω'≥0.",proved,Classical derivation remains conditional; following sentence incorrectly says ω=0 instead of ω'=0.,Kuranishi repair V.13.,Noether equality corresponds to vanishing stronger excess.
+V-286,214,The 1912 arithmetic/monodromy observation predicts branch realizability throughout the same continuous equisingular family.,sketched,Same singularity numbers alone do not identify a connected topological family.,V.9 precise corollary.,Historical wording needs topological qualification.
+V-287,215,"The revised first bound is claimed immune to the completeness criticism, whereas the second still depends on it.",proved,,Read §11 in terms of actual dimension and §13 as conditional.,Faithful status distinction.
+V-288,215,B.Segre1934 retained the unproved characteristic-system completeness presupposition.,assumed from earlier work,,Source's explicit historical assessment.,No independent reconstruction of every step of Segre's paper.
+V-289,215,A conditional irregular formula is M=12p_a−2p_g−2p^(1)+12+ω with ω≥0.,sketched,Depends on the disputed completeness hypothesis.,Modern tangent/obstruction theory replaces universal completeness.,Not established unconditionally in these pages.
+V-290,215,Segre's regular estimate ω≥p−1 yields M≥10p−2p^(1)+11.,assumed from earlier work,Conditional historical estimate.,V.14; source cites Segre1934.,Do not silently turn it into a proved universal formula.
+V-291,215,Segre's irregular estimate ω≥2p_g−p_a−1 yields M=9p_a+p_g−2p^(1)+11+θ.,assumed from earlier work,Conditional and excess symbols are not interchangeable.,V.14.,Source supplies no proof here.
+V-292,215,Castelnuovo privately communicated ω≥2p_a+p_g+p^(1)−I−3.,stated without proof,"No proof or published locator; if I is Zeuthen invariant, this is equivalent to M≥0 in the first formula.",Substitute I=12p_a−p^(1)+9; V.14.,Do not invent a publication or stronger content.
+VI-001,217,"Regularity means p_g=p_a=p, equivalently q=h¹(O_S)=0.",definition,,Surface Riemann–Roch and Serre duality; commentary VI.2.,
+VI-002,217,One may replace the surface by a model without exceptional curves of the first kind.,assumed from earlier work,,"Enriques, Chapter IV §9; modern smooth minimal-model theory.",Used before identifying absolute p^(1) with K²+1.
+VI-003,217,A minimal surface with p_g>0 has absolute linear genus p^(1)>0.,proved,,"Component argument pp.217–218, expanded in VI.1.",Zero canonical divisor treated separately.
+VI-004,217,p^(2)=p^(1)−1=K²; therefore p^(1)≤0 would imply K²<0.,definition,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-005,217,An effective canonical divisor decomposes as K=Σs_iK_i with s_i positive integers.,definition,,Prime-divisor decomposition.,
+VI-006,217,An integral component of arithmetic genus 0 and square −1 is an exceptional curve of the first kind.,assumed from earlier work,,Arithmetic genus zero implies smooth rational; Castelnuovo contraction.,Minimality excludes it.
+VI-007,217,"For a canonical component K_i with ρ_i=p_a(K_i), ν_i=K_i², one has K·K_i=2ρ_i−2−ν_i.",proved,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-008,218,"If 2ρ_i−2−ν_i<0 and ρ_i≥0, then ν_i≥−1.",proved,,Integrality gives ν_i>2ρ_i−2≥−2.,
+VI-009,218,"Under minimality, the negative-intersection hypothesis forces ν_i≥0.",proved,,The remaining ν_i=−1 case forces ρ_i=0.,
+VI-010,218,"If ν_i≥0, then K·K_i=s_iν_i+Σ_{j≠i}s_jn_ij≥0, contradicting negativity.",proved,,Distinct effective integral curves have nonnegative intersection.,
+VI-011,218,K²=Σs_i²ν_i+2Σ_{i<j}s_is_jn_ij.,proved,,Bilinearity of intersection.,
+VI-012,218,∂K²/∂s_i=2(s_iν_i+Σ_{j≠i}s_jn_ij)=2K·K_i≥0 at the coefficients of K.,proved,,Differentiate the displayed quadratic form.,
+VI-013,218,Euler homogeneity gives K²≥0 from s_i>0 and the preceding partial derivatives.,proved,Does not prove the intersection matrix is positive semidefinite on arbitrary vectors.,2K²=Σs_i(∂K²/∂s_i).,
+VI-014,218,"If the unique canonical divisor is zero, then p=1 and K∼0.",definition,,An effective degree-zero divisor against an ample class is zero.,
+VI-015,218,"For K∼0, C²=n=2π−2.",proved,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-016,218,"For K∼0, the adjoint system |C+K| equals |C|.",proved,,"Linear equivalence, not numerical equivalence alone.",
+VI-017,218,The virtual genus identity π=π+p^(1)+2π−2−n−1 gives p^(1)=1.,proved,,Use n=2π−2; equivalently K²=0.,p_a(0)=1 is a virtual-divisor convention.
+VI-018,218–219,The positivity theorem extends to p_g=0 when some plurigenus P_i is positive.,proved,,Apply the component argument to an effective iK.,
+VI-019,219,A component of iK has intersection i(2ρ−2−ν) with iK.,proved,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-020,219,"If the effective i-canonical divisor is zero, iK∼0 and p^(1)=1.",proved,,A torsion canonical class has square zero.,
+VI-021,219,"For any irregularity, existence of some positive plurigenus implies absolute p^(1)≥1 on the minimal model.",proved,,The component proof never uses q=0.,
+VI-022,219,"For a regular irreducible system C with n≤2π−2, K·C=2π−2−n≥0.",proved,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-023,219,"For C′=C+K, K·C′=2π−2−n+p^(1)−1.",proved,,Intersection distributivity.,
+VI-024,219,"If p^(1)≤0, intersection with K strictly decreases under successive adjunction.",proved,,K·(C+jK)=K·C+jK² with K²≤−1.,
+VI-025,219,The decreasing-intersection argument is asserted to force adjunction termination or a system L with K·L<0.,sketched,Fixed components and the positivity of the test system are suppressed.,"Use the complete component proof, or the minimal-model framework; VI.1.",
+VI-026,219,"If a movable positive test divisor L has K·L<0, the degrees L·(L+jK) strictly decrease.",proved,"To deduce non-effectivity, L must be nef or replaced by a suitable positive test class.",Separate movable and fixed parts.,
+VI-027,219,Adjunction termination rules out every effective positive multiple of K.,proved,,Multiplication by a nonzero section of mK embeds successive adjoint spaces.,Requires an actual terminating sequence.
+VI-028,220,The first observation links exceptional curves to a system n>2π−2 and termination.,sketched,Ambiguous unless the system is movable: isolated exceptional curves do not suffice for termination.,"On Bl_p(K3), K=E and |E+jK|=|(j+1)E| never terminates; maintain moving-system hypotheses.",Not a counterexample to the correctly proved positivity theorem.
+VI-029,220,"For a regular surface and an irreducible system without fundamental curves, the adjoint is asserted not to be reducible.",stated without proof,The statement is made in the reductio setting; a complete general irreducibility theorem is not proved here.,Use a sufficiently positive system and precise Bertini/fixed-component hypotheses.,
+VI-030,220,A multiple of a reducible negative-canonical-intersection system can be combined with a suitable irreducible system to produce an irreducible one.,sketched,No choice of ample divisor or control of fixed components is supplied.,Use the modern rationality proof in VI.4; do not assume arbitrary addition eliminates fixed components.,
+VI-031,220,The chapter assumes n≤2π−2 for every relevant irreducible system and reduces to a model without exceptional curves.,assumed from earlier work,,Enriques Chapter IV §9.,
+VI-032,220,d=2π−2−n is the canonical intersection K·C.,definition,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-033,220,(C+2K)|_C has degree 2π−2+d.,proved,,(C+2K)·C=n+2d.,
+VI-034,220,The restricted second-adjoint series is said to be nonspecial for d≥0.,sketched,Degree 2π−2+d ensures nonspeciality for d>0; d=0 needs the separate treatment on pp.221–222.,"Use (VI-RR2), retaining h⁰(−K).",
+VI-035,220,"For d>0, detaching C from |C+2K| imposes at most π−1+d conditions.",proved,,Restriction exact sequence and curve Riemann–Roch.,No surjectivity assumption is needed for the upper bound on conditions.
+VI-036,220,"For positive canonical degree, P_2−1≥p_a+p^(1)−1 and P_2≥p_a+p^(1).",proved,,Surface Riemann–Roch and Serre duality; commentary VI.2.,
+VI-037,221,For regular surfaces the principal inequality reads P_2≥p+p^(1).,proved,The printed d≥0 requires the K∼0 exception explicitly given later on the same page.,P_2=χ+K²+h¹(2K)−h⁰(−K).,"High-resolution scan confirms ≥, not >; TeX is accurate."
+VI-038,221,"For an integral canonical divisor on a regular surface, |2K| restricts to its complete canonical series.",proved,,0→O(K)→O(2K)→ω_K→0 and H¹(K)=0.,
+VI-039,221,"If an integral canonical member exists and p^(1)>1, then P_2=p+p^(1).",proved,,Count h⁰(ω_K)=p_a(K).,
+VI-040,221,"When K²=0 and the effective pluricanonical system moves, its members are composed with genus-one fibres.",sketched,The text speaks of |K| even where it can be empty; structural semiampleness is not proved here.,"Reid (1996), §§E.4–E.7; replace by the effective pluricanonical system.",
+VI-041,221,On a regular surface the base of the genus-one pencil is P¹.,assumed from earlier work,,H¹(O_B) injects into H¹(O_S).,
+VI-042,221,"If K∼(p−1)F with no extra fixed part, P_2−1=2p−2.",proved,,"h⁰(P¹,O(2p−2))=2p−1.",
+VI-043,221,A fixed canonical component whose double moves can give P_2−1>2p−2.,sketched,,"Reid (1996), §E.7.3; formula (VI-F) in commentary.",Multiple-fibre effects account for the strict inequality.
+VI-044,221,"If p=1 and K∼0, P_2=1 and p^(1)=1, violating the unqualified principal lower bound.",proved,,h⁰(2K)=h⁰(O)=1.,Author explicitly states the exception.
+VI-045,221,"For K∼0, n=2π−2 and |C|=|C′|=|C″|.",proved,,Adjunction 2p_a(C)−2=C²+K·C; commentary VI.1.,
+VI-046,221,"For the zero canonical and bicanonical systems, p−1=P_2−1=0.",proved,,Both spaces of sections have dimension one.,
+VI-047,222,The arithmetic-genus sum for C and a zero canonical divisor is π=π+p^(1)+0−1.,proved,,Virtual arithmetic-genus addition.,
+VI-048,222,Regular p_g=1 surfaces with K∼0 have P_2=1; those of positive canonical degree have P_2≥2.,proved,,Combine the exception with (VI-RR2) and K²≥0.,
+VI-049,222,"If q=p_g=0 and K≡0, then P_2=p^(1)=1.",proved,The printed restriction argument is compressed.,Riemann–Roch forces 2K effective; numerical triviality forces 2K∼0; K²=0.,
+VI-050,222,"For nontrivial K, |C+K| differs from |C|.",proved,,Take C sufficiently positive; equality of complete systems implies equality of line bundles.,
+VI-051,222,"The second-adjoint restriction in the p_g=0, degree-zero case is asserted nonspecial.",sketched,Distinct global systems need not automatically have distinct restrictions.,Replace by the global Riemann–Roch proof of 2K∼0; VI.2.,
+VI-052,222,"In the regular p_g=0, K≡0 case, |C+2K|=|C|.",proved,,2K∼0.,
+VI-053,222,The fundamental bigenus bound fails for systems with n>2π−2.,proved,,The restriction can be special; plane septic gives the explicit counterexample.,
+VI-054,222,Printed relation −d=n−(2π−2) purports to express negative canonical degree.,stated without proof,Source sign misprint: the right-hand side is positive under n>2π−2.,Write d=n−(2π−2)>0 and K·C=−d=2π−2−n.,Scan and TeX agree.
+VI-055,222,"With d>0 denoting the absolute negative canonical degree, the second-adjoint restriction has degree 2π−2−d.",proved,,Use K·C=−d; this fixes the preceding displayed sign.,
+VI-056,222,"For general plane septics, first adjoints are quartics and second adjoints are lines.",proved,,"K_P²=−3H, so 7H+K=4H and 7H+2K=H.",
+VI-057,222,Lines on a smooth plane septic cut a g^2_7.,proved,,"Restriction of H⁰(P²,O(1)) has dimension 3 and degree 7.",
+VI-058,222,The line series on a smooth plane septic has speciality index 10.,proved,,"g=15, h⁰=3, degree7; h¹=3−7−1+15=10.",
+VI-059,222,The virtual canonical system on P² is |C_1−C_4|.,proved,,H−4H=−3H.,
+VI-060,223,K·C_1=−3 and K·C_4=−12.,proved,,K=−3H.,The symbol d is reused locally; K·C_7=−21 for the original septic.
+VI-061,223,Genus addition gives 0=p^(1)+3−12−1.,proved,,C_1=C_4+K as a divisor class; use p_a(C_4)=3.,
+VI-062,223,The relative linear genus of the plane model is p^(1)=10.,proved,,K²+1=9+1.,
+VI-063,223,The plane has P_2=0.,proved,,"H⁰(P²,O(−6))=0.",
+VI-064,223,"For m≥2 and positive canonical degree, P_m≥p_a+1+binom(m,2)(p^(1)−1).",proved,The range m≥2 is implicit; the formula is false at m=1 for regular surfaces.,Surface Riemann–Roch and Serre duality; commentary VI.2.,
+VI-065,223,"For q=0, K²>0 and an integral member of |(m−1)K|, equality holds in the preceding plurigenus bound.",proved,,0→O(K)→O(mK)→ω_(m−1)K→0; H¹(K)=0.,
+VI-066,223,A pluricanonical divisor has square m²(p^(1)−1).,proved,,(mK)²=m²K².,
+VI-067,223,"For K²=0 and positive canonical degree, P_m≥p+1 for m≥2; effective pluricanonical divisors are vertical for one genus-one fibration.",sketched,The inequality is elementary RR; the fibration statement needs structure theory.,"Reid (1996), §E.7.3; formula (VI-F) in commentary.",
+VI-068,223,A regular p_g=0 surface with 2K∼0 and K nontrivial has P_3=0.,proved,,3K∼K and h⁰(K)=0.,
+VI-069,223–224,"Within q=p_g=0,P_2=1, zero bicanonical order gives P_3=0, whereas positive bicanonical order gives P_3≥1.",proved,,Order-two canonical class versus (VI-RRm).,
+VI-070,224,"For q=p_g=0 and K of exact order two, P_2i=1 and P_(2i+1)=0.",proved,,Even multiples are trivial and odd multiples are K.,
+VI-071,224,"In the positive-order case with q=p_g=0,P_2=1, all P_m for m≥2 are positive.",proved,,Surface Riemann–Roch and Serre duality; commentary VI.2.,Does not include P_1=p_g=0.
+VI-072,224,"In that positive-order case, P_6≥2.",proved,Text does not explicitly explain why the two products differ.,"If 3D_2=2D_3, then D_2=2E,D_3=3E and E∼K, contradicting p_g=0.",
+VI-073,224,The double-plane classification for p^(1)=1 is attributed to Enriques (1898).,assumed from earlier work,,"Enriques, Sui piani doppi di genere lineare p^(1)=1, Lincei, April/May1898.",Original classification proof not supplied or independently verified here.
+VI-074,224,A smooth general sextic double plane has K∼0 and p_g=P_m=1 for every m≥1.,proved,,"Double cover of P² with L=3H; K_X=0, χ=2, q=0.",
+VI-075,224,"For K²=0 and some P_m>1, the pluricanonical genus-one pencil is invariant under the double-cover involution.",assumed from earlier work,,Functoriality of canonical maps and surface abundance.,
+VI-076,224,Category I has invariant genus-one fibres with rational quotient and a g^1_2.,definition,,Riemann–Hurwitz gives four branch points.,
+VI-077,224,"Category-I plane forms have branch degree2n with multiplicity2n−4 or2n−3 at O, plus specified genus-lowering singularities.",assumed from earlier work,Normal-form exhaustiveness is not proved in the excerpt.,Enriques1898; four-branch-point calculation verifies the generic fibre genus.,
+VI-078,224,Category II permits a fibrewise étale involution or an involution exchanging fibres with rational quotient base.,definition,,Degree-two maps of genus-one curves or of the pencil base.,
+VI-079,225,"The quotient genus-one pencil in category II can be represented by degree3s curves with nine s-fold base points, a Halphen pencil.",assumed from earlier work,,"Cantat & Dolgachev (2012), Proposition 2.2 and §2.2; commentary VI.3.",
+VI-080,225,"In category II, branch components are members of the Halphen pencil and possibly the distinguished cubic.",assumed from earlier work,,Verticality of the branch under the genus-one quotient; Enriques–Conforto.,
+VI-081,225,"Aligned [3,3] points are important additional singularities in category I.",definition,,A triple point with a triple point on the prescribed first infinitely near neighbourhood.,
+VI-082,225,"For the first octic, D_8=r+D_7 with r=OA and D_7 having O³A²A_1².",proved,,Bézout forces r as a component.,
+VI-083,225,The first octic has p_g=p_a=1.,sketched,,Unique canonical adjoint line and χ=2 from (VI-DC).,Assumes the stated generic singularities and no extra corrections.
+VI-084,225,The unique canonical adjoint image is the line r through O and A.,proved,,Canonical adjoint conditions; resolution in VI.3.,
+VI-085,225,The apparent canonical image contains exceptional contributions and an elliptic component over A_1.,sketched,,Canonical resolution separates branch (−1)-curves from the actual elliptic half-fibre.,
+VI-086,225,"After minimalization, the first octic has p^(1)=1.",sketched,,K_X²=−2 and two contractions give K_S²=0.,
+VI-087,225,The first octic has P_2=2.,proved,,K_S is the reduced double fibre E; 2K_S∼F.,
+VI-088,225,Its bicanonical pencil maps to lines through O; impure images include the fixed branch line r.,sketched,,"Canonical-resolution calculation (VI-DC), (VI-I) in commentary VI.3.",
+VI-089,225,"Conics through A,A_1 form a projective 3-dimensional system.",proved,,Five-dimensional conic system minus two independent simple conditions.,
+VI-090,225,The lifted conics have ten branch points.,proved,,Γ=2H−E_A−E_A1 and Γ·B=10.,
+VI-091,225,The lifted conics are hyperelliptic curves of genus4.,proved,,Riemann–Hurwitz: 2g−2=−4+10.,
+VI-092,225,"The lifted conic system has degree4, strictly below 2·4−2.",proved,,Γ²=2 and double pullback square4.,
+VI-093,225,The canonical divisor intersects each lifted conic in two conjugate points.,proved,,Adjunction K·C=2·4−2−4=2.,
+VI-094,225–226,The bicanonical divisor intersects each lifted conic in four points in two hyperelliptic pairs.,proved,,2K·C=4 and the involution description.,
+VI-095,226,The conic construction gives a double quadric cone with branch degree10.,sketched,,Image degree Γ²=2 and Γ·B=10.,The projective model may still have nonrational singularities; the smooth minimal model is distinct.
+VI-096,226,"The branch decic on the cone projects from a triple point P to D_7, with an infinitely near triple point P_1 projecting to O.",sketched,No full projection/resolution diagram is supplied.,Compatible with the named conic transformation; construction not independently expanded.,
+VI-097,226,"PP_1 lies in the tangent plane along the ruling through P, and planes through PP_1 cut the bicanonical image pencil.",sketched,Incidence description is asserted without detailed equations.,Retain as a geometric sketch.,
+VI-098,226,"The second octic has two aligned [3,3] clusters and splits as r+s+D_6(O²A²A_1²B²B_1²).",proved,,Bézout forces r and s.,
+VI-099,226,The second octic has p_g=p_a=0.,sketched,,"No adjoint line through O,A,B; χ=1.",
+VI-100,226,The second octic has P_2=1.,sketched,,Minimal model has K of exact order2.,
+VI-101,226,Its impure bicanonical divisor is twice the exceptional branch-line contribution.,sketched,,Our canonical resolution has four such (−1)-curves; two extra resolution curves can first be contracted.,"Different counts reflect different intermediate models, not an extra error."
+VI-102,226,The second octic has P_3=0.,stated without proof,,3K∼K and p_g=0.,Author announces a direct computation but argues indirectly.
+VI-103,226,"After contraction, the second octic has bicanonical divisor zero.",sketched,,2K_S∼0.,
+VI-104,226,"The cubics through O,A,A_1,B,B_1 form an ∞⁴.",proved,,Γ=−K_Y on the five-point blow-up; h⁰(Γ)=5.,
+VI-105,226,The named cubic construction is printed as having lifted genus4.,stated without proof,Source numerical error; the full named system has genus5.,"Γ²=4, p_a(Γ)=1, Γ·B=8; Riemann–Hurwitz gives g=5; Dolgachev2016§4p13.",
+VI-106,226,The named cubic construction is printed as having lifted degree6.,stated without proof,Source numerical error; the full named system has square8.,Double pullback of Γ²=4; contractions have zero intersection with Γ.,
+VI-107,226,The named cubic construction is printed as a double cubic normal in S_4.,stated without proof,Source numerical error; it is a double four-nodal quartic del Pezzo in P⁴.,Dolgachev2016§4p13; anticanonical system on the five-point blow-up.,
+VI-108,226,The branch degree for the named cubic construction is printed as10.,stated without proof,"Source numerical error; its branch curve has degree8, together with the four nodal branch points.",Γ·B=8; branch divisor on the quartic lies in |O(2)|; Dolgachev2016§4p13.,
+VI-109,226,The second octic is promised to be birational to a sextic with double tetrahedral edges.,assumed from earlier work,,"Dolgachev (2016), §§2,4; Kumar (2008), Lecture 17, Proposition 1.","Forward reference, not proved on this page."
+VI-110,226,"The decic with two [3,3] clusters splits as r+s+D_8(O⁴A²A_1²B²B_1²).",proved,,Bézout and branch multiplicities.,
+VI-111,226,Its canonical divisor after removing exceptional parts is the sum of two elliptic reduced double fibres.,sketched,,"Canonical-resolution calculation (VI-DC), (VI-I) in commentary VI.3.",
+VI-112,226,This two-cluster decic has p_g=p_a=1.,sketched,,"Unique adjoint conic r+s, χ=2, q=0.",
+VI-113,226,This two-cluster decic has p^(1)=1.,sketched,,K_X²=−4 and four contractions give K_S²=0.,
+VI-114,227,"This two-cluster decic has P_2=3>p+p^(1), with images pairs of lines through O.",proved,,"K∼E_A+E_B, 2K∼2F; h⁰(O_P¹(2))=3.",
+VI-115,227,"For the three-cluster decic, no conic has a double point at O and passes through A,B,E in three different directions.",proved,,A conic double at O is the union of two lines through O.,
+VI-116,227,The three-cluster decic has p_g=p_a=0.,proved,,No canonical adjoint conic; χ=1 from (VI-DC).,
+VI-117,227,"Its bicanonical pencil maps to lines through O after adding exceptional branch-line images r,s,t.",sketched,,"Canonical-resolution calculation (VI-DC), (VI-I) in commentary VI.3.",
+VI-118,227,The three-cluster decic has p^(1)=1.,proved,,K_X²=−6 and six contractions give K_S²=0.,
+VI-119,227,The three-cluster decic has P_2=2.,proved,,2K∼F; formula(VI-I).,
+VI-120,227,Its bicanonical pencil contains three double fibres.,sketched,,"The resolved three [3,3] clusters supply the three reduced half-fibres.",
+VI-121,227,"The sum of the three reduced double fibres is the unique tricanonical divisor, so P_3=1.",proved,,"K∼−F+E_A+E_B+E_E, hence 3K∼E_A+E_B+E_E.",
+VI-122,227,The doubled tricanonical divisor belongs to the triple bicanonical system; sexticanonical images are triples of lines.,proved,,6K∼3F.,
+VI-123,227,The three-cluster decic has P_6=4.,proved,,"h⁰(P¹,O(3))=4.",
+VI-124,227,"The first category-II example is an irreducible D_(6n), n>1, with nine ordinary 2n-fold points, in a Halphen pencil.",assumed from earlier work,,"Cantat & Dolgachev (2012), Proposition 2.2 and §2.2; commentary VI.3.",The source's irreducible reduced member of |2nJ| forces Halphen index 2n; commentary VI.3 derives this using fixed remainders.
+VI-125,227,General double members of the Halphen pencil split into two elliptic curves exchanged by the involution.,assumed from earlier work,Even intersection multiplicities alone would not prove splitting.,Degree-two Stein factor on the base or the square criterion; Comessatti cited via Enriques–ChisiniV.IV§38.,
+VI-126,228,The canonical adjoint image for D_(6n) is (n−1) times the distinguished cubic.,proved,,K_X=(n−1)π*J with J=−K_Y.,
+VI-127,228,This first Halphen cover has p_a=p_g=1 and q=0.,proved,,χ=2 and h⁰((n−1)J)=1.,
+VI-128,228,This first Halphen cover has p^(1)=1.,proved,,J²=0 implies K_X²=0.,
+VI-129,228,The two displayed bicanonical constructions correspond to the invariant and anti-invariant eigensections of the double cover.,sketched,,π_*O_X(2K_X)=O_Y((2n−2)J)⊕O_Y((n−2)J).,
+VI-130,228,Its bicanonical system has one moving fibre plus fixed (n−2)E.,proved,,F=nE and 2K=(2n−2)E=F+(n−2)E.,
+VI-131,228,The fixed reduced component is printed as a 1/(n−1)-part of a general elliptic fibre.,stated without proof,Source error: the fraction is1/n.,F=nE; (VI-H1) and the degree-two base change.,High-resolution scan confirms printed(n−1)-ma.
+VI-132,228,The first Halphen cover has P_2=2.,proved,,P_m=floor(m(n−1)/n)+1.,
+VI-133,228,Its tricanonical moving system is said to consist of pairs of elliptic fibres.,stated without proof,"Requires n≥3, and for n>3 there is an omitted fixed part(n−3)E.","For n≥3,3K=2F+(n−3)E; for n=2,3K=F+E.",
+VI-134,228,The first Halphen family is printed as having P_3=3 for all n>1.,stated without proof,"Fails at the allowed endpoint n=2, where P_3=2.","P_3=floor(3(n−1)/n)+1:2 for n=2,3 for n≥3.","Own correction derived from the cover, not a claimed published erratum."
+VI-135,228,"The second Halphen branch is D_(6n−3)+D_3, with nine(2n−1)-fold points on the first component.",assumed from earlier work,,"Cantat & Dolgachev (2012), Proposition 2.2 and §2.2; commentary VI.3.",The irreducible D_(6n−3) member forces Halphen index 2n−1; numerical degree and multiplicities alone would not suffice.
+VI-136,228,The second Halphen cover has a unique canonical adjoint image D_3^(n−1).,proved,,K_X=(n−1)π*J=2(n−1)E.,
+VI-137,228,"The second Halphen cover has p_a=p_g=1, q=0, and p^(1)=1.",proved,,"Double-cover eigensheaves, χ=2, J²=0.",
+VI-138,228,Its bicanonical pencil is obtained from the two invariant branch/adjoint constructions described in the text.,sketched,,Pushforward formula and F=(2n−1)E.,
+VI-139,228,The second Halphen cover has P_2=2.,proved,,P_m=floor(m(2n−2)/(2n−1))+1.,
+VI-140,228,In the second Halphen family the final sentence gives fixed part represented only by doubled D_3^(n−2).,stated without proof,Source omission: one reduced ramification cubic E is missing.,"Ramification C_G+E plus π*((n−2)J) gives F+(2n−3)E, not F+2(n−2)E; at n=2 the fixed part is E.",The preceding construction and P_2=2 remain correct.
+VI-141,229,Vertical covers branched in suitable collections of Halphen fibres can have p_a=1 and p_g>1.,stated without proof,"Depends on the cover and smoothness assumptions, not every arbitrary fibre configuration.",χ=2; a Stein base of genus b gives q=b and p_g=b+1.,
+VI-142,229,These irregular Halphen examples have p^(1)=1.,stated without proof,,K²=0 from vertical-cover calculation.,
+VI-143,229,The D_9+r example has a branch-line exceptional component and is said to fall outside the stated category-II normal form.,definition,,Remove the exceptional branch contribution before comparing minimal forms.,
+VI-144,229,"The nonic D_9 is a Halphen curve with nine triple points, including three infinitely near pairs and three points on r.",assumed from earlier work,,Campedelli1932 papers as cited by Enriques.,Existence of this special configuration is assumed.
+VI-145,229,"A canonical adjoint conic through the required six proper points would split as r plus a line through noncollinear A,B,E.",proved,,Three of the required points lie on r; Bézout forces r.,
+VI-146,229,The D_9+r surface has p_g=p_a=0.,sketched,,No canonical adjoint conic; χ=1 after canonical resolution.,
+VI-147,229,The branch line has square−2 on the resolved base and its reduced lift has square−1.,proved,,"π*r=2R and(π*r)²=2r², so R²=r²/2=−1.",
+VI-148,229,"A hypothetical double line through A,B,E would have four branch points and genusone.",sketched,,Three odd contributions plus its intersection with r; Riemann–Hurwitz.,"Used as a virtual canonical-genus calculation, not an assertion that the line exists."
+VI-149,229,The absolute linear genus of the D_9+r example is p^(1)=1.,sketched,,Minimal K²=0; equivalently the genus-one canonical-fibration calculation.,
+VI-150,229,Its unique bicanonical divisor is irreducible and has plane image the distinguished cubic D_3 plus exceptional r contribution.,assumed from earlier work,"Irreducibility is justified by the cited Comessatti criterion, not by equations in the excerpt.",Enriques–ChisiniV.IV§38; compatible with the reduced triple fibre in VI.3.,
+VI-151,229,The D_9+r example has P_2=1.,proved,,"Unique bicanonical cubic; formula for multiplicities(2,3).",
+VI-152,230,This example must have P_3≥1.,proved,,Positive-order case of VI.2.,
+VI-153,230,This example must have P_6≥2.,proved,,Distinct products of bicanonical and tricanonical sections.,
+VI-154,230,A tricanonical divisor is represented by D_9 with the exceptional contribution r.,sketched,,3K=C_3; 2C_3=3C_2 is a fibre.,
+VI-155,230,The tricanonical divisor is isolated.,proved,Text omits the explicit choice of a member through a point of the bicanonical curve.,"If it moved, zero intersection with C_2 forces a member containing C_2, yielding an effective K.",
+VI-156,230,The corresponding lifted nonics are irreducible and invariant under the involution.,assumed from earlier work,,Comessatti criterion as cited; consistent with the reduced double fibre.,
+VI-157,230,The unique tricanonical image is once printed D_3.,stated without proof,Source slip: D_9 is intended; D_3 is bicanonical.,Previous paragraph and equality3C_2=2C_3.,Scan confirms D_3; TeX already marks it[sic].
+VI-158,230,The sexticanonical pencil contains twice the tricanonical and three times the bicanonical curve.,proved,,6K=2C_3=3C_2=F.,
+VI-159,230,The D_9+r example has P_3=1.,proved,,"P_m=max(0,1−m+floor(m/2)+floor(2m/3)).",
+VI-160,230,The D_9+r example has P_6=2.,proved,,6K is one genus-one fibre; h⁰(O_P¹(1))=2.,
+VI-161,230,A rational surface is one birational to the plane.,definition,,Work over the algebraically closed characteristic-zero field implicit in the book.,
+VI-162,230,Rational surfaces have p_a=p_g=q=0.,proved,,Birational invariance and computation on P².,
+VI-163,230,Every positive plurigenus of a rational surface vanishes.,proved,,"H⁰(P²,O(−3m))=0 and birational invariance.",
+VI-164,230,Vanishing p_a=p_g=0 alone does not imply rationality.,proved,,The preceding Enriques examples have P_2=1.,
+VI-165,230,Castelnuovo criterion: p_a=P_2=0 is necessary and sufficient for rationality.,proved,Detailed historical argument contains compressed fixed-component steps; full replacement given in VI.4.,"Hassett (2009), Corollary 2.20 and Theorem 2.26, p.178; Kumar (2008), Lecture 9, Theorem 1.",
+VI-166,230,"The criterion is attributed to Castelnuovo,Sulle superficie di genere zero(1896),Memorie scelte p307.",assumed from earlier work,,Citation as printed; exact earlier proof not reproduced.,
+VI-167,230–231,The proof reduces rationality to termination of adjunction and the last rational/elliptic systems.,sketched,,Noether and Clebsch–Noether results cited via Enriques–Conforto.,
+VI-168,231,The argument divides into existence of a moving irreducible system with K·C<0 or nonnegative K·C for every such system.,definition,,Equivalent to n>2π−2 versus n≤2π−2.,
+VI-169,231,"If d=n−(2π−2)>0, successive adjoint degrees against C are2π−2−jd.",proved,,(C+(j+1)K)·C=C²−(j+1)d.,
+VI-170,231,Such a positive-degree adjoint sequence terminates.,proved,"Use a genuinely positive ample test system, after the indicated model changes.",Effective nonzero divisors cannot have negative ample degree.,
+VI-171,231,"If all successive moving systems stay irreducible, the last positive-dimensional one has genus0 or1.",proved,,"For p_g=q=0, h⁰(K+D)=g(D) by adjunction exact sequence.",
+VI-172,231,A surface with a rational pencil of rational curves is rational.,assumed from earlier work,,Noether–Enriques theorem; genus-zero fibration overP¹.,
+VI-173,231,The characteristic series of a complete curve system is complete when q=0.,proved,,0→O→O(D)→O_D(D)→0.,
+VI-174,231,An elliptic complete system of dimension r≥2 has degree n=r.,proved,,"On the elliptic member,h⁰(O_D(D))=D² and equalsr.",
+VI-175,231,It yields a net of degree2 after imposing r−2 general base points.,sketched,Imposed base points are implicit; an arbitrary net retains the original degree.,Blow up those simple base points before the double-plane map.,
+VI-176,231,The corresponding double plane has quartic branch and is rational.,assumed from earlier work,,Riemann–Hurwitz and Clebsch theorem cited via Enriques–Conforto.,
+VI-177,231,"If the last elliptic system is a pencil,the preceding irreducible adjoint predecessor has genus2.",proved,,h⁰(K+D)=g(D)=2.,
+VI-178,231–232,One can work with a preceding genus-two system of dimension at least2.,sketched,The step of moving back through the adjoint sequence is not expanded.,Use the full modern rationality proof to bypass this choice.,
+VI-179,232,The hyperelliptic conjugate of a fixed point stays fixed as the genus-two member varies.,sketched,The alternative rational locus argument is geometric and compressed.,"Once established,it defines a surface involution; VI.4 explains the use.",
+VI-180,232,An adjoint D=K+C of an irreducible C on p_g=q=0 has dimension g(C)−1 and H¹(O(D))=0.,proved,,Adjunction exact sequence and trace H¹(ω_C)→H²(K).,
+VI-181,232,The characteristic series of that adjoint is complete and nonspecial.,proved,,Restriction exact sequence and q=p_g=H¹(D)=0.,
+VI-182,232,For the genus-two case this series is twice the g^1_2.,proved,,A complete nonspecial series composed with the hyperelliptic pencil has degree2g=4.,
+VI-183,232,The genus-two system has projective dimension3 and degree4.,proved,,Characteristic series is g^2_4; source really prints∞³.,
+VI-184,232,Its map has degree2 onto a quadric with degree6 branch.,sketched,,Image degree4/2=2; hyperplane double cover ofP¹ has six branch points.,
+VI-185,232,"In the remaining nonrational-pencil case,the quadric is a cone.",sketched,"Degree6 alone does not force branch bidegree(3,3) on a smooth quadric.","Even branch bidegree(a,b),a+b=6,would give a rational ruling unless the surface is a cone.",
+VI-186,232,The cone vertex contributes a branch point in addition to three moving branch points on each ruling.,sketched,,Parity of the degree-two map on the ruling; fourth branch gives genusone.,
+VI-187,232,"This double cone is birational to Noether’s double plane with a sextic having a[3,3]point,and is rational.",assumed from earlier work,,Noether theorem cited through Enriques–Conforto.,
+VI-188,232,A fixed adjoint part θ can generally be removed and the adjunction process continued on the irreducible moving part.,sketched,Removal does not automatically preserve cohomological regularity or genus.,"Track the precise moving systems,or use modern minimal-model proof.",
+VI-189,232,"For such a regular rational or elliptic moving system,degree equalsr−1 orr respectively.",proved,Requires the stated completeness/non-speciality assumptions after stripping.,Curve Riemann–Roch on the general member.,
+VI-190,232,A pencil composed with the moving adjoint has rational base on a regular surface.,proved,,H¹(O_B) injects into H¹(O_S)=0.,
+VI-191,232,"If its fibres are rational,the surface is rational.",assumed from earlier work,,Noether–Enriques theorem.,
+VI-192,233,The fixed part θ is fundamental for the previous irreducible system.,proved,,"Its restriction lies in the base locus of the complete canonical series,which is empty.",
+VI-193,233,The pencil meets a preceding member in ν>1 points unless its members are rational.,sketched,,The ν=1 case gives degree-one rational parametrization under the stated pencil setup.,
+VI-194,233,A canonical series composed with that pencil forces hyperellipticity and ν=2.,proved,,The canonical map is birational except on hyperelliptic curves.,
+VI-195,233,The preceding adjoint has complete nonspecial characteristic series composed with the hyperelliptic g^1_2.,sketched,The global involution argument and persistence after fixed parts need care.,Cohomology of genuine adjoints plus the fixed-conjugate argument.,
+VI-196,233,The system is composed with an involution of degree2.,sketched,,Hyperelliptic conjugate is independent of the chosen curve through a general point.,
+VI-197,233,Its degree is n_(h−1)=2(r_(h−1)−1).,proved,,Complete nonspecial hyperelliptic characteristic series.,
+VI-198,233,Its genus is π_(h−1)=r_(h−1)−1.,proved,,Curve Riemann–Roch with the preceding degree.,
+VI-199,233,Subtracting a pencil member L lowers the system dimension by2.,sketched,Needs the indicated two-dimensional restriction on L.,Restriction to the degree-two pencil onL.,
+VI-200,233,Subtracting L lowers the genus of the residual system by1.,sketched,Residual connectedness and the adjoint dimension are not fully justified.,Verify those conditions before using genus addition; modern proof avoids the step.,
+VI-201,233,"The original member is connected,so L meets the residual in i≥1 points.",sketched,Arithmetic connectedness and absence of common components are implicit.,Use connected members in a suitable ample system.,
+VI-202,233,Genus addition gives π=(π−1)+ρ+i−1.,proved,Conditional on the preceding residual genus calculation.,Arithmetic genus addition forL+residual.,
+VI-203,233,"Sinceρ>0 andi≥1,the equation forcesρ=i=1.",proved,,ρ+i=2.,
+VI-204,234,"A degree-one series on an elliptic L is fixed,and residual curves are concluded to split into pencil members.",sketched,The identification of the fixed point with the pencil base point is compressed.,"Supply incidence/base-locus control; retain as a geometric step,not a proved general lemma.",
+VI-205,234,The degree-two image is a cone of degree m=r_(h−1)−1 inP^(m+1).,sketched,,The ruling images are lines and have a common vertex under the preceding incidence conclusion.,
+VI-206,234,Its branch curve has degree2+2π_(h−1)=2m+2.,proved,,Riemann–Hurwitz on a general hyperplane rational curve.,
+VI-207,234,Positive-genus lifted rulings require at least3 moving branch points each.,proved,,At most one additional branch contribution can be the common vertex.,
+VI-208,234,A hyperplane through the vertex gives3m≤2m+2.,proved,,It consists ofm rulings.,
+VI-209,234,"After excluding the plane/rational case,m=2 and the image is a quadric cone.",proved,,Inequality givesm≤2; the retained hyperelliptic situation hasm≥2.,
+VI-210,234,The resulting quadric-cone double cover is rational by Noether’s theorem.,assumed from earlier work,,Same earlier case as p232.,
+VI-211,234,"Under CaseII,all irreducible systems satisfy n≤2π−2 and the surface may be taken without exceptional curves.",assumed from earlier work,,EnriquesChapterIV§9; minimal model.,
+VI-212,234,"For p_g=p_a=0 in CaseII,the bigenus estimate givesP_2≥p^(1).",proved,,VI.2 including the degree-zero case.,
+VI-213,234,ConsequentlyP_2=0 impliesp^(1)≤0.,proved,,Immediate numerical consequence.,
+VI-214,235,Successive adjoints change intersection withK byp^(1)−1≤−1.,proved,,K·(C+K)−K·C=K².,
+VI-215,235,Hence either an adjoint has negativeK-intersection or the series terminates.,sketched,Same effective/movable-part control as inVI.1.,Modern minimal-model proof inVI.4.,
+VI-216,235,The last system reduces to rational-pencil or genus-two/elliptic-pencil cases already considered.,sketched,,Reuse CasesI and fixed-component analysis.,
+VI-217,235,Those terminal systems contradictCaseII by producingn>2π−2.,sketched,,The genus0/1/2 degree computations above.,
+VI-218,235,A reducible system withn>2π−2 and no exceptional components can be made irreducible after addition to a regular system.,sketched,No detailed construction or positivity lemma supplied.,"Use a precise ample/moving argument,or the independent minimal-model proof.",
+VI-219,235,The final rationality criterion is p_a=P_2=0.,proved,Classical proof uses imported Noether/Clebsch results and compressed residual lemmas.,"Hassett (2009), Corollary 2.20 and Theorem 2.26, p.178; Kumar (2008), Lecture 9, Theorem 1.",
+VI-220,235,P_2=0 impliesp_g=0 a priori.,proved,,The square of a nonzero canonical section is nonzero.,
+VI-221,235,"Equivalently,rational surfaces are regular surfaces withP_2=0.",proved,,p_a=p_g−q andP_2=0⇒p_g=0.,
+VI-222,235,"Enriques credits the method essentially toCastelnuovo,with simplified details.",assumed from earlier work,,Source attribution; not an independent comparison with the1896paper.,
+VII-001,237 (inferred),"Among q=p_g=0,P_2=1 surfaces,P_3=0 characterizes the zero bicanonical divisor on a minimal model.",assumed from earlier work,,ChapterVI§2; commentaryVI.2.,Opening leaf unnumbered; outside filename endpoint.
+VII-002,237 (inferred),The equivalent distinguishing value isP_6=1 instead ofP_6>1.,assumed from earlier work,,ChapterVI§2 and the product-of-sections proof.,
+VII-003,237 (inferred),"The class is to be represented by an octic double plane: sextic with two tacnodes and a node at intersection of the tacnodal tangents,plus those two lines.",stated without proof,Announced construction is not proved on the supplied leaf.,Dolgachev2016§2pp3–5 confirms the Enriques-octic model and degenerations.,Do not infer missing continuation.
+VII-004,237 (inferred),The octic double plane is to be transformed birationally to a sextic with double tetrahedral edges.,stated without proof,"Forward announcement,not a proof in this excerpt.",Dolgachev2016§2pp3–5; modern proofs attributed there toArtin1960 andAverbuch1965.,
+VII-005,237 (inferred),"These models havep_g=q=0,P_2=1,P_3=0.",assumed from earlier work,,K of exact order2 on the minimal Enriques surface.,
+VII-006,237 (inferred),"For a curveC on the minimal surface,C²=2π−2.",proved,π must be arithmetic/virtual genus ifC is singular.,Adjunction withK≡0.,Item1 of the continuing list.
+VII-007,237 (inferred),"For a nonzero effective curve system,dim|C|≥π−1.",proved,,"Riemann–Roch:h⁰(C)≥1+C²/2=π,becauseh⁰(K−C)=0.",Item2; excerpt ends here.
