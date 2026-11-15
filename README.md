@@ -8,7 +8,7 @@ examples; page references to the book. It covers the Introduzione and all eleven
 It accompanies the edition of the book, which gives the Italian text as printed, a corrected Italian text and English
 translations: [KokunoYumeto/enriques-superficie-algebriche](https://github.com/KokunoYumeto/enriques-superficie-algebriche).
 
-- [Commentary, PDF](https://github.com/KokunoYumeto/enriques-superficie-algebriche-commentary/releases/download/commentary-2026-11-08/Enriques_Superficie_algebriche_commentary.pdf)
+- [Commentary, PDF](https://github.com/KokunoYumeto/enriques-superficie-algebriche-commentary/releases/download/commentary-2026-11-15/Enriques_Superficie_algebriche_commentary.pdf)
 - [LaTeX source](commentary/): `main.tex` with Part 1 (Introduzione, Capitoli I–VI) and Part 2 (Capitoli VII–XI);
   it compiles with LuaLaTeX.
 - [Audit records](audit/records/): the page-by-page audits the commentary is built from. For each range of pages:
