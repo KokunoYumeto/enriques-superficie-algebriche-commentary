@@ -22,7 +22,7 @@ translations: [KokunoYumeto/enriques-superficie-algebriche](https://github.com/K
 The commentary is AI-produced. An AI model (ChatGPT, Pro mode) audited the published edition page by page against the
 scans of the 1949 print, in six audits (November 2026), and then wrote the commentary from those audits, checking the
 text and the scans wherever the audits disagreed. Some sentences of Part 1 were revised for the reader by another AI
-model (Claude Opus 5.5 (effort not recorded), Anthropic). No human mathematician has reviewed it. Errors certainly remain: please report them
+model (Claude Opus 5.5 at effort max, Anthropic, Message Batches API). No human mathematician has reviewed it. Errors certainly remain: please report them
 as issues, with the page.
 
 Pages 284–285 of the book are missing from the only available scan, so the commentary does not cover them.
